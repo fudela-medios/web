@@ -1,0 +1,47 @@
+body{
+	background-color: beige;
+}
+h3{
+    color:black;
+}
+.container{
+	overflow: hidden;
+	width: 80%;
+	height: 80%;
+	margin-top: 5%;
+	background-color: #1d4377;	
+}
+.container-contact100{
+	float: left;
+	margin: 2.5%;
+	width: 45%;
+	height: 60%;
+	padding:5%;
+	background-color: #CEE3F6;
+	display: inline-block;
+}
+.redes_sociales{
+	width: 15%;
+	height: auto;
+	vertical-align:center;
+
+}
+.redes{
+    width:150%;
+    height:auto;
+}
+.boton{
+    display:grid;
+}
+.contact100-form-btn{
+    margin:7%;
+}
+.titulo{
+    font-size:2em;
+}
+.campo{
+    font-size:1.3em;
+}
+#titulo-seccion{
+    margin-top:5%;
+}
