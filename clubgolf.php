@@ -55,7 +55,7 @@
 					$('[data-toggle="tooltip"]').tooltip()
 				})
 			</script>
-			<script src="assets/js/modal.js"></script>
+			<script src="assets/js/modal3.js"></script>
 		</div>
 	</body>
 </html>
