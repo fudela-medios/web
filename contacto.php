@@ -61,41 +61,27 @@
 						            <label class="titulo">
 						              Redes Sociales
 						            </label>
-						            <div class="row">
-										<section class="col-2">
-											<div class="box highlight">
-						            			<a target="_blank" href="https://twitter.com/"><img src="assets/css/images/twitter.png" class="redes"></a>
+						            
+						            <div class="contenedor-contacto">
+											<div class="contenedor-redes">
+						            			<a target="_blank" href="https://twitter.com/" class="contacto-a"><img src="assets/css/images/twitter.png" class="redes"><h3 class="texto-contenido-redes">@fudelamedios</h3></a>
 						            		</div>
-						            	</section>
-						            	<section class="col-1">
-											<div class="box highlight">
-												<a target="_blank" href="https://twitter.com/"><h3>@fudelamedios</h3></a>
-											</div>
-										</section>
 						            </div>
-						            <div class="row">
-						            	<section class="col-2">
-											<div class="box highlight">
-												<a target="_blank" href="https://www.instagram.com"><img src="assets/css/images/instagram.png" class="redes"></a>
-											</div>
-										</section>
-										<section class="col-1">
-											<div class="box highlight">
-												<a target="_blank" href="https://www.instagram.com"><h3>@fudelamedios</h3></a>
-											</div>
-										</section>
-						        	</div>
+						            <div class="contenedor-contacto">
+											<div class="contenedor-redes">
+						            			<a target="_blank" href="https://www.instagram.com" class="contacto-a"><img src="assets/css/images/instagram.png" class="redes"><h3 class="texto-contenido-redes">@fudelamedios</h3></a>
+						            		</div>
+						            </div>
 						          </div>
 						        </div>
 
+						        
+
 						        <div class="dis-flex size1 p-b-47">
-						          <div class="txt1 p-r-25">
-						            <span class="lnr lnr-phone-handset"></span>
-						          </div>
 
 						          <div class="flex-col size2">
 						            <label class="campo">
-						              Tel&eacute;fono:
+						              Telefono:
 						            </label>
 
 						            <label class="campo">
@@ -110,30 +96,34 @@
 						        </div>
 
 						        <div class="dis-flex size1 p-b-47">
-						          <div class="txt1 p-r-25">
-						            <span class="lnr lnr-envelope"></span>
-						          </div>
 
 						          <div class="flex-col size2">
-						            <label class="campo">
-						              email:
-						            </label>
-
-						            <label class="campo">
-						              contacto@fudelamedios.com
-						            </label>
-						            <label class="campo">
+						          	<div class="contenedor-contacto">
+										<div class="contenedor-redes">
+						            		<img src="assets/css/images/correo-1.png" class="redes_sociales">
+						            		<label class="campo-correo">
+								              email:
+								            </label>
+						            	</div>
+						            	
+							            
+						            </div>
+						            <label class="campo-correo">
+							            contacto@fudelamedios.com
+							        </label>
+							        <label class="campo-correo">
 						              Horario: 10:00 - 18:00 hrs.
 						            </label>
 						          </div>
-						          
 						        </div>
 						      </div>
 				</div>
 			</div>
 			
 		</div>
-
+		<?php
+			require 'copy.php'; 
+		?>
 		<!-- Scripts -->
 <!--===============================================================================================-->
   <script src="vendor/jquery/jquery-3.2.1.min.js"></script>

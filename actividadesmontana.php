@@ -186,8 +186,7 @@
 								<img class="galeria_img" src="assets/css/images/catalogo/montana/30.jpg">
 							</div>
 						</div>
-					</div>
-					<div class="contenedor_imagen">
+						<div class="contenedor_imagen">
 							<div class="galeria_item">
 								<img class="galeria_img" src="assets/css/images/catalogo/montana/31.jpg">
 							</div>
@@ -202,6 +201,8 @@
 								<img class="galeria_img" src="assets/css/images/catalogo/montana/33.jpg">
 							</div>
 						</div>
+					</div>
+					
 				</div>
 				<div>
 					<!-- -------------------- Ciclismo --------------------- -->

@@ -27,8 +27,19 @@ h3{
 
 }
 .redes{
-    width:150%;
+    width:11%;;
     height:auto;
+    float: left;
+    margin: 1.5%;
+}
+.contenedor-redes{
+	padding-left: 0%;
+	margin-bottom: 2.5%;
+}
+.texto-contenido-redes{
+	margin-top: 2.5%;
+	width: 50%;
+	float: left;
 }
 .boton{
     display:grid;
@@ -44,4 +55,12 @@ h3{
 }
 #titulo-seccion{
     margin-top:5%;
+}
+.campo-correo{
+    font-size:1.3em;
+    margin-left: 1.5%;
+    margin-bottom: 1.6%;
+}
+.contacto-a:hover{
+	text-decoration: underline #1d4377;
 }
