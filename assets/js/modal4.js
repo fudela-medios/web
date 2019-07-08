@@ -1,16 +1,17 @@
 $(document).ready(function(){
   $('.galeria_img').click(function(e){
 		var img = e.target.src;
-		var subst = img.substr(56,1);
+		console.log(img);
+		var subst = img.substr(63,1);
 		$('.modal_img').attr("src",img);
 		$('.modal').attr("style","/* display: none; */");
 	});
 	
 	$('.modal_boton_d').click(function(){
 		var img = $('img.modal_img').attr("src");
-		var subst = img.substr(56,1);
-		if (img.substr(57,1)!= '.'){
-		    subst=subst+img.substr(57,1);
+		var subst = img.substr(63,1);
+		if (img.substr(64,1)!= '.'){
+		    subst=subst+img.substr(64,1);
 		}
 		if(subst == 1){
 			//alert("Primera imagen");
@@ -24,9 +25,9 @@ $(document).ready(function(){
 	
 	$('.modal_boton_i').click(function(){
 		var img = $('img.modal_img').attr("src");
-		var subst = img.substr(56,1);
-		if (img.substr(57,1)!= '.'){
-		    subst=subst+img.substr(57,1);
+		var subst = img.substr(63,1);
+		if (img.substr(64,1)!= '.'){
+		    subst=subst+img.substr(64,1);
 		}
 		if (subst == 15) {
 			//alert("Ultima imagen");
@@ -54,9 +55,9 @@ $(document).keydown(function(e){
 $(document).keydown(function(e){
     if (e.which == "37") {
 		var img = $('img.modal_img').attr("src");
-		var subst = img.substr(56,1);
-		if (img.substr(57,1)!= '.'){
-		    subst=subst+img.substr(57,1);
+		var subst = img.substr(63,1);
+		if (img.substr(64,1)!= '.'){
+		    subst=subst+img.substr(64,1);
 		}
 		if(subst == 1){
 			//alert("Primera imagen");
@@ -73,9 +74,9 @@ $(document).keydown(function(e){
 $(document).keydown(function(e){
     if (e.which == "39") {
 		var img = $('img.modal_img').attr("src");
-		var subst = img.substr(56,1);
-		if (img.substr(57,1)!= '.'){
-		    subst=subst+img.substr(57,1);
+		var subst = img.substr(63,1);
+		if (img.substr(64,1)!= '.'){
+		    subst=subst+img.substr(64,1);
 		}
 		if (subst == 15) {
 			//alert("Ultima imagen");

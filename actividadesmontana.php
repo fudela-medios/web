@@ -129,13 +129,7 @@
 							<img id="mon" class="galeria_img" src="assets/css/images/catalogo/montana/20.jpg">
 						</div>
 					</div>
-				</div>
-				<div>
-					<!-- -------------------- Pesca --------------------- -->
-					<br>
-					<h2 align="center" >Pesca</h2>
-					<div class="galeria">
-						<div class="contenedor_imagen">
+					<div class="contenedor_imagen">
 							<div class="galeria_item">
 								<img class="galeria_img" src="assets/css/images/catalogo/montana/21.jpg">
 							</div>
@@ -150,6 +144,13 @@
 								<img class="galeria_img" src="assets/css/images/catalogo/montana/23.jpg">
 							</div>
 						</div>
+				</div>
+				<div>
+					<!-- -------------------- Pesca --------------------- -->
+					<br>
+					<h2 align="center" >Pesca</h2>
+					<div class="galeria">
+						
 						<div class="contenedor_imagen">
 							<div class="galeria_item">
 								<img class="galeria_img" src="assets/css/images/catalogo/montana/24.jpg">
@@ -186,12 +187,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
-				<div>
-					<!-- -------------------- Ciclismo --------------------- -->
-					<h2 align="center">Ciclismo</h2>
-					<div class="galeria">
-						<div class="contenedor_imagen">
+					<div class="contenedor_imagen">
 							<div class="galeria_item">
 								<img class="galeria_img" src="assets/css/images/catalogo/montana/31.jpg">
 							</div>
@@ -206,6 +202,11 @@
 								<img class="galeria_img" src="assets/css/images/catalogo/montana/33.jpg">
 							</div>
 						</div>
+				</div>
+				<div>
+					<!-- -------------------- Ciclismo --------------------- -->
+					<h2 align="center">Ciclismo</h2>
+					<div class="galeria">
 						<div class="contenedor_imagen">
 							<div class="galeria_item">
 								<img class="galeria_img" src="assets/css/images/catalogo/montana/34.jpg">
@@ -249,6 +250,21 @@
 						<div class="contenedor_imagen">
 							<div class="galeria_item">
 								<img class="galeria_img" src="assets/css/images/catalogo/montana/42.jpg">
+							</div>
+						</div>
+						<div class="contenedor_imagen">
+							<div class="galeria_item">
+								<img class="galeria_img" src="assets/css/images/catalogo/montana/43.jpg">
+							</div>
+						</div>
+						<div class="contenedor_imagen">
+							<div class="galeria_item">
+								<img class="galeria_img" src="assets/css/images/catalogo/montana/44.jpg">
+							</div>
+						</div>
+						<div class="contenedor_imagen">
+							<div class="galeria_item">
+								<img class="galeria_img" src="assets/css/images/catalogo/montana/45.jpg">
 							</div>
 						</div>
 					</div>
