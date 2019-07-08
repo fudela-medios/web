@@ -77,8 +77,8 @@
 					    <li><a href="#">Suministros:</a></li>
 						<li><a href="computadoras.php#menusuministros">Equipo de c&oacute;mputo</a></li>
 						<li><a href="productos.php#menusuministros">Herramientas de todo tipo</a></li>
-						<li><a href="#">Insumos de oficina</a></li>
-						<li><a href="#">Maquinaria especializada</a></li>
+						<li><a href="insumosoficina.php">Insumos de oficina</a></li>
+						<li><a href="maquinariaespecializada.php">Maquinaria especializada</a></li>
 					</ul>
 				</li>
 				<li data-toggle="tooltip" data-placement="top"  title="Personal" id="menupersonal" class="menu"><img  class="icono" src="assets/css/images/personal.png">								
@@ -86,27 +86,27 @@
 				<li data-toggle="tooltip" data-placement="top" title="Proyectos" id="menuproyectos" class="menu"><img  class="icono" src="assets/css/images/proyectos.png">
 					<ul>
 					    <li><a href="#">Proyectos:</a></li>
-						<li><a href="#">Arquitect&oacute;nicos</a></li>
-						<li><a href="#">Industriales</a></li>
-						<li><a href="#">Seguridad</a></li>
-						<li><a href="#">Tecnolog&iacute;as de Informaci&oacute;n</a></li>
+						<li><a href="arquitectonicosp.php">Arquitect&oacute;nicos</a></li>
+						<li><a href="industrialesp.php">Industriales</a></li>
+						<li><a href="seguridadp.php">Seguridad</a></li>
+						<li><a href="tecnologiasinformacion.php">Tecnolog&iacute;as de Informaci&oacute;n</a></li>
 					</ul>
 				</li>
 				</li>
 				<li data-toggle="tooltip" data-placement="top" title="Mantenimiento" id="menumantenimiento" class="menu"><img  class="icono" src="assets/css/images/mantenimiento.png">
 					<ul>
 					    <li><a href="#">Mantenimiento:</a></li>
-						<li><a href="#">Industrial</a></li>
-						<li><a href="#">Residencial</a></li>
-						<li><a href="#">Redes</a></li>
-						<li><a href="#">Urbano</a></li>
+						<li><a href="industrialm.php">Industrial</a></li>
+						<li><a href="residencialm.php">Residencial</a></li>
+						<li><a href="redesm.php">Redes</a></li>
+						<li><a href="urbanom.php">Urbano</a></li>
 						
 					</ul>								
 				</li>
 				<li data-toggle="tooltip" data-placement="top" title="Galeria" class="menu" id="galeria">
 					<a  href="galeria.php#galeria"><img class="icono"  src="assets/css/images/galeria.png"></a>
 					<ul>
-					    <li><a href="#">Galeria:</a></li>
+					    <li><a href="galeria.php#galeria">Galeria:</a></li>
 						<li><a href="photos.php#galeria">Fotos</a></li>
 						<li><a href="videos.php#galeria">Videos</a></li>
 					</ul>
