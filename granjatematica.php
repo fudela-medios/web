@@ -30,22 +30,77 @@
 				<div class="galeria">
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/47.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/granja/1.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/48.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/granja/2.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/49.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/granja/3.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/50.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/granja/4.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/granja/5.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/granja/6.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/granja/7.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/granja/8.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/granja/9.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/granja/10.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/granja/11.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/granja/12.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/granja/13.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/granja/14.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/granja/15.jpg">
 						</div>
 					</div>
 				</div>

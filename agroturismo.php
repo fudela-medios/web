@@ -30,47 +30,67 @@
 				<div class="galeria">
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/36.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/agroturismo/1.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/37.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/agroturismo/2.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/38.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/agroturismo/3.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/39.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/agroturismo/4.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/40.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/agroturismo/5.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/41.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/agroturismo/6.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/42.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/agroturismo/7.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/43.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/agroturismo/8.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/44.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/agroturismo/9.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/agroturismo/10.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/agroturismo/11.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/agroturismo/12.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/agroturismo/13.jpg">
 						</div>
 					</div>
 				</div>

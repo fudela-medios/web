@@ -14,7 +14,7 @@ $(document).ready(function(){
 		if (img.substr(57,1)!= '.'){
 		    subst=subst+img.substr(57,1);
 		}
-		if(subst == 36){
+		if(subst == 1){
 			//alert("Primera imagen");
 		}
 		else{
@@ -30,7 +30,7 @@ $(document).ready(function(){
 		if (img.substr(57,1)!= '.'){
 		    subst=subst+img.substr(57,1);
 		}
-		if (subst == 44) {
+		if (subst == 13) {
 			//alert("Ultima imagen");
 		}
 		else{
@@ -60,7 +60,7 @@ $(document).keydown(function(e){
 		if (img.substr(57,1)!= '.'){
 		    subst=subst+img.substr(57,1);
 		}
-		if(subst == 36){
+		if(subst == 1){
 			//alert("Primera imagen");
 		}
 		else{
@@ -78,7 +78,7 @@ $(document).keydown(function(e){
 		if (img.substr(57,1)!= '.'){
 		    subst=subst+img.substr(57,1);
 		}
-		if (subst == 44) {
+		if (subst == 13) {
 			//alert("Ultima imagen");
 		}
 		else{

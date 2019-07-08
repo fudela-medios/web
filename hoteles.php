@@ -30,57 +30,57 @@
 				<div class="galeria">
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/51.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hotel/1.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/52.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hotel/2.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/53.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hotel/3.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/54.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hotel/4.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/55.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hotel/5.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/56.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hotel/6.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/57.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hotel/7.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/58.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hotel/8.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/59.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hotel/9.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/60.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hotel/10.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/61.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hotel/11.jpg">
 						</div>
 					</div>
 				</div>

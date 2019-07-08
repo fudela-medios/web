@@ -30,67 +30,67 @@
 				<div class="galeria">
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/64.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/vivienda/1.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/65.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/vivienda/2.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/66.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/vivienda/3.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/67.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/vivienda/4.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/68.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/vivienda/5.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/69.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/vivienda/6.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/70.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/vivienda/7.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/71.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/vivienda/8.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/72.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/vivienda/9.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/73.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/vivienda/10.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/74.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/vivienda/11.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/75.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/vivienda/12.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/76.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/vivienda/13.jpg">
 						</div>
 					</div>
 				</div>

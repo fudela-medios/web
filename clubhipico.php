@@ -31,67 +31,67 @@
 				    
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/1.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hipico/1.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/2.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hipico/2.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/3.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hipico/3.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/4.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hipico/4.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/5.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hipico/5.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/6.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hipico/6.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/7.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hipico/7.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/8.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hipico/8.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/9.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hipico/9.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/10.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hipico/10.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/11.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hipico/11.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/12.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hipico/12.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/13.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/hipico/13.jpg">
 						</div>
 					</div>
 
