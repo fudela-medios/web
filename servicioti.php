@@ -16,11 +16,10 @@
 			require 'menu.php';
 		?>
 		<div class="con">
-			<div class="conte">
+			<div class="conte" >
 				<h2>Tecnolog&iacute;as de informaci&oacute;n</h2>
 			</div>
 			<div class="conta">
-
 				<div class="columna-imagen">
 					<div class="img-servicio">
 						<img class="imagen-servicio" src="assets/css/images/informatica.jpg">
@@ -36,11 +35,10 @@
 				<span class="apartados">Curso de manejo de sistema operativo Mac (Básico)</span><br>
 				<span class="apartados">Curso de manejo de sistema operativo Linux (Básico)</span><br>
 				<span class="apartados">Edición de video y fotografía (Básico)</span><br>
-
 			</div>
 			<div class="conte">
 				<span class="texto"><a href="#">Curso de Office</a></span><br>
-				<span class="texto" align="justify">Este curso comprende los conocimientos básicos para que cualquier persona pueda utilizar Word, PowerPoint y Excel de mejor forma, viendo los siguientes puntos:</span><br>
+				<span class="texto" align="justify">Este curso pretende dar los conocimientos básicos para que cualquier persona pueda utilizar Word de mejor forma, viendo los siguientes puntos:</span><br>
 				<div class="conta">
 					<div class="columnaa">
 						<span class="apartados">El entorno de Word 2016</span><br>
@@ -65,7 +63,7 @@
 			</div>
 			<div class="conte">
 				<span class="texto"><a href="#">Curso de manejo de sistema operativo Mac</a></span><br>
-				<span class="texto" align="justify">Este curso dará a los participantes el conocimiento sobre el entorno de MAC, así como diferentes actividades que se pueden realizar.</span><br>
+				<span class="texto" align="justify">Este curso dará a los participantes el conocimiento sobre la interfaz de MAC, así como diferentes actividades que se pueden realizar.</span><br>
 					<span class="apartados">Instalación y configuración del sistema</span><br>
 					<span class="apartados">Optimización del sistema</span><br>
 					<span class="apartados">Instalación y administración de aplicaciones</span><br>
@@ -73,9 +71,8 @@
 			</div>
 			<div class="conte">
 				<span class="texto"><a href="#">Curso de manejo de sistema operativo GNU/Linux</a></span><br>
-				<span class="texto" align="justify">
-				    Permite a los participantes obtener el conocimiento para trabajar sobre un entorno GNU/Linux, que abarca desde los comandos básicos, las herramientas que dispone el sistema operativo; la instalación del entorno de trabajo hasta la administración de procesos y usuarios.</span><br>
-					<span class="apartados">Instalación y Configuración GNU/Linux</span><br>
+				<span class="texto" align="justify">Este curso dará los participantes el conocimiento para trabajar sobre un entorno GNU/Linux, aportará conocimientos en la utilización de comandos básicos y las distintas herramientas que se tienen, partiendo desde la instalación del entorno de trabajo y llegando a la administración de procesos y usuarios.</span><br>
+					<span class="apartados">Instalación y Configuración del Sistema</span><br>
 					<span class="apartados">Shell y comandos básicos</span><br>
 					<span class="apartados">Gestionar directorios y ficheros</span><br>
 					<span class="apartados">Administración de procesos y usuarios</span><br>

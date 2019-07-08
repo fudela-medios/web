@@ -62,14 +62,14 @@
 				<li data-toggle="tooltip" data-placement="top" title=" Capacitaci&oacute;n" id="menueducacion" class="menu"><img  class="icono" src="assets/css/images/educacion.png">
 					<ul>
 					    <li><a href="#">Capacitacion:</a></li>
-					    <li><a href="#">Alta gerencia</a></li>
-					    <li><a href="#">Atenci&oacute;n y servicio al cliente</a></li>
-					    <li><a href="#">Desarrollo de proyectos</a></li>
-					    <li><a href="#">Est&aacute;ndares y normas de calidad</a></li>
-					    <li><a href="#">Liderazgo</a></li>
-					    <li><a href="#">Recursos humanos</a></li>
+					    <li><a href="altagerencia.php">Alta gerencia</a></li>
+					    <li><a href="atencionyservicio.php">Atenci&oacute;n y servicio al cliente</a></li>
+					    <li><a href="desarrolloproyectosc.php">Desarrollo de proyectos</a></li>
+					    <li><a href="estandaresnormascalidad.php">Est&aacute;ndares y normas de calidad</a></li>
+					    <li><a href="liderazgoc.php">Liderazgo</a></li>
+					    <li><a href="recursoshumanosc.php">Recursos humanos</a></li>
 						<li><a href="servicioti.php" id="informatica" data-toggle="tooltip" data-placement="righ" title="" >Tecnolog&iacute;as de informaci&oacute;n</a></li>
-						<li><a href="#">Urbanismo</a></li>
+						<li><a href="urbanismoc.php">Urbanismo</a></li>
 					</ul>
 				</li>
 				<li data-toggle="tooltip" data-placement="top"  title="Suministros" id="menusuministros" class="menu"><img  class="icono" src="assets/css/images/suministros.png">												
