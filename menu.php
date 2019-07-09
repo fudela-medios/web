@@ -62,23 +62,193 @@
 				<li data-toggle="tooltip" data-placement="top" title=" Capacitaci&oacute;n" id="menueducacion" class="menu"><img  class="icono" src="assets/css/images/educacion.png">
 					<ul>
 					    <li><a href="#">Capacitacion:</a></li>
-					    <li><a href="altagerencia.php">Alta gerencia</a></li>
-					    <li><a href="atencionyservicio.php">Atenci&oacute;n y servicio al cliente</a></li>
-					    <li><a href="desarrolloproyectosc.php">Desarrollo de proyectos</a></li>
-					    <li><a href="estandaresnormascalidad.php">Est&aacute;ndares y normas de calidad</a></li>
-					    <li><a href="liderazgoc.php">Liderazgo</a></li>
-					    <li><a href="recursoshumanosc.php">Recursos humanos</a></li>
-						<li><a href="servicioti.php" id="informatica" data-toggle="tooltip" data-placement="righ" title="" >Tecnolog&iacute;as de informaci&oacute;n</a></li>
-						<li><a href="urbanismoc.php">Urbanismo</a></li>
+					    <li>
+					    	<a href="altagerencia.php">Alta gerencia</a>
+					    	<ul>
+					    		<li class="contenedor-descripcion">
+					    			<div class="descipcion-seccion">
+					    				<div class="descripcion-seccion-img">
+					    					<img class="img-seccion-d" src="assets/css/images/gerencia.png">
+					    				</div>
+					    				<div class="descripcion-seccion-texto">
+					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
+					    				</div> 
+					    			</div>
+					    		</li>
+					    	</ul>
+					    </li>
+					    <li>
+					    	<a href="atencionyservicio.php">Atenci&oacute;n y servicio al cliente</a>
+					    	<ul>
+					    		<li class="contenedor-descripcion">
+					    			<div class="descipcion-seccion">
+					    				<div class="descripcion-seccion-img">
+					    					<img class="img-seccion-d" src="assets/css/images/serviciocliente.png">
+					    				</div>
+					    				<div class="descripcion-seccion-texto">
+					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
+					    				</div> 
+					    			</div>
+					    		</li>
+					    	</ul>
+					    </li>
+					    <li>
+					    	<a href="desarrolloproyectosc.php">Desarrollo de proyectos</a>
+					    	<ul>
+					    		<li class="contenedor-descripcion">
+					    			<div class="descipcion-seccion">
+					    				<div class="descripcion-seccion-img">
+					    					<img class="img-seccion-d" src="">
+					    				</div>
+					    				<div class="descripcion-seccion-texto">
+					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
+					    				</div> 
+					    			</div>
+					    		</li>
+					    	</ul>
+					    </li>
+					    <li>
+					    	<a href="estandaresnormascalidad.php">Est&aacute;ndares y normas de calidad</a>
+					    	<ul>
+					    		<li class="contenedor-descripcion">
+					    			<div class="descipcion-seccion">
+					    				<div class="descripcion-seccion-img">
+					    					<img class="img-seccion-d" src="">
+					    				</div>
+					    				<div class="descripcion-seccion-texto">
+					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
+					    				</div> 
+					    			</div>
+					    		</li>
+					    	</ul>
+					    </li>
+					    <li>
+					    	<a href="liderazgoc.php">Liderazgo</a>
+					    	<ul>
+					    		<li class="contenedor-descripcion">
+					    			<div class="descipcion-seccion">
+					    				<div class="descripcion-seccion-img">
+					    					<img class="img-seccion-d" src="">
+					    				</div>
+					    				<div class="descripcion-seccion-texto">
+					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
+					    				</div> 
+					    			</div>
+					    		</li>
+					    	</ul>
+					    </li>
+					    <li>
+					    	<a href="recursoshumanosc.php">Recursos humanos</a>
+					    	<ul>
+					    		<li class="contenedor-descripcion">
+					    			<div class="descipcion-seccion">
+					    				<div class="descripcion-seccion-img">
+					    					<img class="img-seccion-d" src="">
+					    				</div>
+					    				<div class="descripcion-seccion-texto">
+					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
+					    				</div> 
+					    			</div>
+					    		</li>
+					    	</ul>
+					    </li>
+						<li>
+							<a href="servicioti.php" id="informatica" data-toggle="tooltip" data-placement="righ" title="" >Tecnolog&iacute;as de informaci&oacute;n</a>
+							<ul>
+					    		<li class="contenedor-descripcion">
+					    			<div class="descipcion-seccion">
+					    				<div class="descripcion-seccion-img">
+					    					<img class="img-seccion-d" src="assets/css/images/catalogo-com.png">
+					    				</div>
+					    				<div class="descripcion-seccion-texto">
+					    					<span class="texto-descripcion">En esta seccion encontrar&aacute; los </span><br><span class="texto-descripcion">cursos que tenemos para la capacitación</span><br><span class="texto-descripcion">del personal.</span>
+					    				</div> 
+					    			</div>
+					    		</li>
+					    	</ul>
+						</li>
+						<li>
+							<a href="urbanismoc.php">Urbanismo</a>
+							<ul>
+					    		<li class="contenedor-descripcion">
+					    			<div class="descipcion-seccion">
+					    				<div class="descripcion-seccion-img">
+					    					<img class="img-seccion-d" src="">
+					    				</div>
+					    				<div class="descripcion-seccion-texto">
+					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
+					    				</div> 
+					    			</div>
+					    		</li>
+					    	</ul>
+						</li>
 					</ul>
 				</li>
 				<li data-toggle="tooltip" data-placement="top"  title="Suministros" id="menusuministros" class="menu"><img  class="icono" src="assets/css/images/suministros.png">												
 					<ul>
 					    <li><a href="#">Suministros:</a></li>
-						<li><a href="computadoras.php#menusuministros">Equipo de c&oacute;mputo</a></li>
-						<li><a href="productos.php#menusuministros">Herramientas de todo tipo</a></li>
-						<li><a href="insumosoficina.php">Insumos de oficina</a></li>
-						<li><a href="maquinariaespecializada.php">Maquinaria especializada</a></li>
+						<li>
+							<a href="computadoras.php#menusuministros">Equipo de c&oacute;mputo</a>
+							<ul>
+					    		<li class="contenedor-descripcion">
+					    			<a href="computadoras.php#menusuministros">
+					    			<div class="descipcion-seccion">
+					    				<div class="descripcion-seccion-img">
+					    					<img class="img-seccion-d" src="assets/css/images/computadoras.png">
+					    				</div>
+					    				<div class="descripcion-seccion-texto">
+					    					<span class="texto-descripcion">En esta secci&oacute;n encontrar&aacute;<br> los cat&aacute;logos de los<br> equipos que<br>tenemos en venta.</span>
+					    				</div> 
+					    			</div>
+					    			</a>
+					    		</li>
+					    	</ul>
+						</li>
+						<li>
+							<a href="productos.php#menusuministros">Herramientas de todo tipo</a>
+							<ul>
+					    		<li class="contenedor-descripcion">
+					    			<div class="descipcion-seccion">
+					    				<div class="descripcion-seccion-img">
+					    					<img class="img-seccion-d" src="assets/css/images/herramienta.png">
+					    				</div>
+					    				<div class="descripcion-seccion-texto">
+					    					<span class="texto-descripcion">En esta secci&oacute;n encontrar&aacute;<br> los cat&aacute;logos de las<br> herramientas que tenemos<br> en venta.</span>
+					    				</div> 
+					    			</div>
+					    		</li>
+					    	</ul>
+						</li>
+						<li>
+							<a href="insumosoficina.php">Insumos de oficina</a>
+							<ul>
+					    		<li class="contenedor-descripcion">
+					    			<div class="descipcion-seccion">
+					    				<div class="descripcion-seccion-img">
+					    					<img class="img-seccion-d" src="assets/css/images/insumos.png">
+					    				</div>
+					    				<div class="descripcion-seccion-texto">
+					    					<span class="texto-descripcion">En esta secci&oacute;n encontrar&aacute;<br> los insumos que podemos<br>proveer en forma de venta.</span>
+					    				</div> 
+					    			</div>
+					    		</li>
+					    	</ul>
+						</li>
+						<li>
+							<a href="maquinariaespecializada.php">Maquinaria especializada</a>
+							<ul>
+					    		<li class="contenedor-descripcion">
+					    			<div class="descipcion-seccion">
+					    				<div class="descripcion-seccion-img">
+					    					<img class="img-seccion-d" src="assets/css/images/maquina.png">
+					    				</div>
+					    				<div class="descripcion-seccion-texto">
+					    					<span class="texto-descripcion">En esta seccion encontrar&aacute;</span><br><span class="texto-descripcion">maquinaria especializada </span><br><span class="texto-descripcion">que tenemos en venta<br>(bajo pedido).</span>
+					    				</div> 
+					    			</div>
+					    		</li>
+					    	</ul>
+						</li>
 					</ul>
 				</li>
 				<li data-toggle="tooltip" data-placement="top"  title="Personal" id="menupersonal" class="menu"><img  class="icono" src="assets/css/images/personal.png">								
@@ -86,20 +256,132 @@
 				<li data-toggle="tooltip" data-placement="top" title="Proyectos" id="menuproyectos" class="menu"><img  class="icono" src="assets/css/images/proyectos.png">
 					<ul>
 					    <li><a href="#">Proyectos:</a></li>
-						<li><a href="arquitectonicosp.php">Arquitect&oacute;nicos</a></li>
-						<li><a href="industrialesp.php">Industriales</a></li>
-						<li><a href="seguridadp.php">Seguridad</a></li>
-						<li><a href="tecnologiasinformacion.php">Tecnolog&iacute;as de Informaci&oacute;n</a></li>
+						<li>
+							<a href="arquitectonicosp.php">Arquitect&oacute;nicos</a>
+							<ul>
+					    		<li class="contenedor-descripcion">
+					    			<div class="descipcion-seccion">
+					    				<div class="descripcion-seccion-img">
+					    					<img class="img-seccion-d" src="">
+					    				</div>
+					    				<div class="descripcion-seccion-texto">
+					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
+					    				</div> 
+					    			</div>
+					    		</li>
+					    	</ul>
+						</li>
+						<li>
+							<a href="industrialesp.php">Industriales</a>
+							<ul>
+					    		<li class="contenedor-descripcion">
+					    			<div class="descipcion-seccion">
+					    				<div class="descripcion-seccion-img">
+					    					<img class="img-seccion-d" src="">
+					    				</div>
+					    				<div class="descripcion-seccion-texto">
+					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
+					    				</div> 
+					    			</div>
+					    		</li>
+					    	</ul>
+						</li>
+						<li>
+							<a href="seguridadp.php">Seguridad</a>
+							<ul>
+					    		<li class="contenedor-descripcion">
+					    			<div class="descipcion-seccion">
+					    				<div class="descripcion-seccion-img">
+					    					<img class="img-seccion-d" src="">
+					    				</div>
+					    				<div class="descripcion-seccion-texto">
+					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
+					    				</div> 
+					    			</div>
+					    		</li>
+					    	</ul>
+						</li>
+						<li>
+							<a href="tecnologiasinformacion.php">Tecnolog&iacute;as de Informaci&oacute;n</a>
+							<ul>
+					    		<li class="contenedor-descripcion">
+					    			<div class="descipcion-seccion">
+					    				<div class="descripcion-seccion-img">
+					    					<img class="img-seccion-d" src="">
+					    				</div>
+					    				<div class="descripcion-seccion-texto">
+					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
+					    				</div> 
+					    			</div>
+					    		</li>
+					    	</ul>
+						</li>
 					</ul>
 				</li>
 				</li>
 				<li data-toggle="tooltip" data-placement="top" title="Mantenimiento" id="menumantenimiento" class="menu"><img  class="icono" src="assets/css/images/mantenimiento.png">
 					<ul>
 					    <li><a href="#">Mantenimiento:</a></li>
-						<li><a href="industrialm.php">Industrial</a></li>
-						<li><a href="residencialm.php">Residencial</a></li>
-						<li><a href="redesm.php">Redes</a></li>
-						<li><a href="urbanom.php">Urbano</a></li>
+						<li>
+							<a href="industrialm.php">Industrial</a>
+							<ul>
+					    		<li class="contenedor-descripcion">
+					    			<div class="descipcion-seccion">
+					    				<div class="descripcion-seccion-img">
+					    					<img class="img-seccion-d" src="">
+					    				</div>
+					    				<div class="descripcion-seccion-texto">
+					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
+					    				</div> 
+					    			</div>
+					    		</li>
+					    	</ul>
+						</li>
+						<li>
+							<a href="residencialm.php">Residencial</a>
+							<ul>
+					    		<li class="contenedor-descripcion">
+					    			<div class="descipcion-seccion">
+					    				<div class="descripcion-seccion-img">
+					    					<img class="img-seccion-d" src="">
+					    				</div>
+					    				<div class="descripcion-seccion-texto">
+					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
+					    				</div> 
+					    			</div>
+					    		</li>
+					    	</ul>
+						</li>
+						<li>
+							<a href="redesm.php">Redes</a>
+							<ul>
+					    		<li class="contenedor-descripcion">
+					    			<div class="descipcion-seccion">
+					    				<div class="descripcion-seccion-img">
+					    					<img class="img-seccion-d" src="">
+					    				</div>
+					    				<div class="descripcion-seccion-texto">
+					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
+					    				</div> 
+					    			</div>
+					    		</li>
+					    	</ul>
+						</li>
+						<li>
+							<a href="urbanom.php">Urbano</a>
+							<ul>
+					    		<li class="contenedor-descripcion">
+					    			<div class="descipcion-seccion">
+					    				<div class="descripcion-seccion-img">
+					    					<img class="img-seccion-d" src="">
+					    				</div>
+					    				<div class="descripcion-seccion-texto">
+					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
+					    				</div> 
+					    			</div>
+					    		</li>
+					    	</ul>
+						</li>
 						
 					</ul>								
 				</li>
