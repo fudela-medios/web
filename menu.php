@@ -208,6 +208,7 @@
 							<a href="productos.php#menusuministros">Herramientas de todo tipo</a>
 							<ul>
 					    		<li class="contenedor-descripcion">
+					    			<a href="productos.php#menusuministros">
 					    			<div class="descipcion-seccion">
 					    				<div class="descripcion-seccion-img">
 					    					<img class="img-seccion-d" src="assets/css/images/herramienta.png">
@@ -216,6 +217,7 @@
 					    					<span class="texto-descripcion">En esta secci&oacute;n encontrar&aacute;<br> los cat&aacute;logos de las<br> herramientas que tenemos<br> en venta.</span>
 					    				</div> 
 					    			</div>
+					    			</a>
 					    		</li>
 					    	</ul>
 						</li>
@@ -223,6 +225,7 @@
 							<a href="insumosoficina.php">Insumos de oficina</a>
 							<ul>
 					    		<li class="contenedor-descripcion">
+					    			<a href="insumosoficina.php">
 					    			<div class="descipcion-seccion">
 					    				<div class="descripcion-seccion-img">
 					    					<img class="img-seccion-d" src="assets/css/images/insumos.png">
@@ -231,6 +234,7 @@
 					    					<span class="texto-descripcion">En esta secci&oacute;n encontrar&aacute;<br> los insumos que podemos<br>proveer en forma de venta.</span>
 					    				</div> 
 					    			</div>
+					    			</a>
 					    		</li>
 					    	</ul>
 						</li>
@@ -238,6 +242,7 @@
 							<a href="maquinariaespecializada.php">Maquinaria especializada</a>
 							<ul>
 					    		<li class="contenedor-descripcion">
+					    			<a href="maquinariaespecializada.php">
 					    			<div class="descipcion-seccion">
 					    				<div class="descripcion-seccion-img">
 					    					<img class="img-seccion-d" src="assets/css/images/maquina.png">
@@ -246,6 +251,7 @@
 					    					<span class="texto-descripcion">En esta seccion encontrar&aacute;</span><br><span class="texto-descripcion">maquinaria especializada </span><br><span class="texto-descripcion">que tenemos en venta<br>(bajo pedido).</span>
 					    				</div> 
 					    			</div>
+					    			</a>
 					    		</li>
 					    	</ul>
 						</li>
