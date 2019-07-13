@@ -26,12 +26,9 @@
 							        <i class="icon major fa-bookmark-o"></i>
 							    </div>
 								<div class="texto-galeria">
-									<span align="justify">Sea bienvenido a la galería fotográfica y videoteca de FUDELA Medios, en estos materiales usted
-encontrará algunos ejemplos de los proyectos que desarrollamos.</span><br>
-                                    <span align="justify">Las áreas mostradas presentan los desarrollos de gran turismo que se han creado; así como la
-generación de espacios que se pueden lograr en función de las necesidades que desean cubrirse.</span><br>
-<span align="justify">Los videos exponen tanto desarrollos inmobiliarios y áreas que pueden generarse como el tipo de
-producciones en video que se puede crear.</span>
+									<span align="center">Sea bienvenido a la galería fotográfica y videoteca de FUDELA Medios.</span><br>
+                                    <span align="justify">Los videos exponen tanto desarrollos inmobiliarios y áreas que pueden generarse como el tipo de
+producciones en v&iacute;deo que se puede crear.</span>
 								</div>
 							</section>
 							<br><br>
@@ -45,7 +42,7 @@ producciones en video que se puede crear.</span>
 													<h3>Galería fotográfica</h3>
 												</a>
 										        <ul>
-										            <li><a class="opc" href="actividadesmontana.php">Actividades de montaña, pesca y ciclismo</a></li>
+										            <li><a class="opc" href="actividadesmontana.php">Actividades recreativas de montaña, pesca,ciclismo</a></li>
 										            <li><a class="opc" href="agroturismo.php">Agroturismo</a></li> 
 										             
 										            <li><a class="opc" href="clubgolf.php">Club de golf</a></li> 
@@ -72,7 +69,9 @@ producciones en video que se puede crear.</span>
 					</div>
 				</section>
 		</div>
-
+		<?php
+			require 'copy.php'; 
+		?>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>

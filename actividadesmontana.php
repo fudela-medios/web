@@ -206,7 +206,7 @@
 				</div>
 				<div>
 					<!-- -------------------- Ciclismo --------------------- -->
-					<h2 align="center">Ciclismo</h2>
+					<h2 align="center">Ciclismo de montaña</h2>
 					<div class="galeria">
 						<div class="contenedor_imagen">
 							<div class="galeria_item">
@@ -271,6 +271,9 @@
 					</div>
 
 				</div>
+				<?php
+        			require 'copy.php'; 
+        		?>
 			</div>	
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

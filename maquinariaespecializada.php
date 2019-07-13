@@ -37,13 +37,6 @@
 				<br>
 				<section class="">
 					<div class="">
-						<a target="_blank" href="catalogos/6.pdf">
-							<iframe src="catalogos/6.pdf" frameborder="0" width="100%" height="500px"></iframe>
-						</a>
-					</div>
-				</section>
-				<section class="">
-					<div class="">
 						<a target="_blank" href="catalogos/3.pdf">
 							<iframe src="catalogos/3.pdf" frameborder="0" width="100%" height="500px"></iframe>
 						</a>
@@ -62,6 +55,14 @@
 					<div class="">
 						<a target="_blank" href="catalogos/5.pdf">
 							<iframe src="catalogos/5.pdf" frameborder="0" width="100%" height="500px"></iframe>
+						</a>
+					</div>
+				</section>
+				<br>
+				<section class="">
+					<div class="">
+						<a target="_blank" href="catalogos/6.pdf">
+							<iframe src="catalogos/6.pdf" frameborder="0" width="100%" height="500px"></iframe>
 						</a>
 					</div>
 				</section>

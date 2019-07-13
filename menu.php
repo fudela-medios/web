@@ -2,7 +2,7 @@
 <div id="header">
 	<!-- Logo -->
 		<div class="contenedor">
-			<div class="row">
+			<div class="rows">
 				<div class="column">
 					<ul class="lista" id="MainMenu">
 						<li class="lista" >
@@ -49,7 +49,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="row">
+			<div class="rows">
 				<div class="column_2">
 					<img class="nombre" id="nombre2" src="assets/css/images/nombre_1.png">
 				</div>
@@ -98,7 +98,7 @@
 					    		<li class="contenedor-descripcion">
 					    			<div class="descipcion-seccion">
 					    				<div class="descripcion-seccion-img">
-					    					<img class="img-seccion-d" src="">
+					    					<img class="img-seccion-d" src="assets/css/images/proyectose.png">
 					    				</div>
 					    				<div class="descripcion-seccion-texto">
 					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
@@ -113,7 +113,7 @@
 					    		<li class="contenedor-descripcion">
 					    			<div class="descipcion-seccion">
 					    				<div class="descripcion-seccion-img">
-					    					<img class="img-seccion-d" src="">
+					    					<img class="img-seccion-d" src="assets/css/images/calidae.png">
 					    				</div>
 					    				<div class="descripcion-seccion-texto">
 					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
@@ -128,7 +128,7 @@
 					    		<li class="contenedor-descripcion">
 					    			<div class="descipcion-seccion">
 					    				<div class="descripcion-seccion-img">
-					    					<img class="img-seccion-d" src="">
+					    					<img class="img-seccion-d" src="assets/css/images/liderazgoe.png">
 					    				</div>
 					    				<div class="descripcion-seccion-texto">
 					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
@@ -143,7 +143,7 @@
 					    		<li class="contenedor-descripcion">
 					    			<div class="descipcion-seccion">
 					    				<div class="descripcion-seccion-img">
-					    					<img class="img-seccion-d" src="">
+					    					<img class="img-seccion-d" src="assets/css/images/recursoshe.png">
 					    				</div>
 					    				<div class="descripcion-seccion-texto">
 					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
@@ -153,17 +153,19 @@
 					    	</ul>
 					    </li>
 						<li>
-							<a href="servicioti.php" id="informatica" data-toggle="tooltip" data-placement="righ" title="" >Tecnolog&iacute;as de informaci&oacute;n</a>
+							<a href="servicioti.php">Tecnolog&iacute;as de informaci&oacute;n</a>
 							<ul>
 					    		<li class="contenedor-descripcion">
+					    			<a href="servicioti.php">
 					    			<div class="descipcion-seccion">
 					    				<div class="descripcion-seccion-img">
-					    					<img class="img-seccion-d" src="assets/css/images/catalogo-com.png">
+					    					<img class="img-seccion-d" src="assets/css/images/compue.png">
 					    				</div>
 					    				<div class="descripcion-seccion-texto">
-					    					<span class="texto-descripcion">En esta seccion encontrar&aacute; los </span><br><span class="texto-descripcion">cursos que tenemos para la capacitación</span><br><span class="texto-descripcion">del personal.</span>
+					    					<span class="texto-descripcion">En esta seccion encontrar&aacute; los cursos que tenemos para la capacitación del personal.</span>
 					    				</div> 
 					    			</div>
+					    			</a>
 					    		</li>
 					    	</ul>
 						</li>
@@ -173,7 +175,7 @@
 					    		<li class="contenedor-descripcion">
 					    			<div class="descipcion-seccion">
 					    				<div class="descripcion-seccion-img">
-					    					<img class="img-seccion-d" src="">
+					    					<img class="img-seccion-d" src="assets/css/images/urbanismoe.png">
 					    				</div>
 					    				<div class="descripcion-seccion-texto">
 					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
@@ -197,7 +199,7 @@
 					    					<img class="img-seccion-d" src="assets/css/images/computadoras.png">
 					    				</div>
 					    				<div class="descripcion-seccion-texto">
-					    					<span class="texto-descripcion">En esta secci&oacute;n encontrar&aacute;<br> los cat&aacute;logos de los<br> equipos que<br>tenemos en venta.</span>
+					    					<span class="texto-descripcion">En esta secci&oacute;n encontrar&aacute; los cat&aacute;logos de los equipos que tenemos en venta.</span>
 					    				</div> 
 					    			</div>
 					    			</a>
@@ -268,7 +270,7 @@
 					    		<li class="contenedor-descripcion">
 					    			<div class="descipcion-seccion">
 					    				<div class="descripcion-seccion-img">
-					    					<img class="img-seccion-d" src="">
+					    					<img class="img-seccion-d" src="assets/css/images/arquitecturap.png">
 					    				</div>
 					    				<div class="descripcion-seccion-texto">
 					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
@@ -283,7 +285,7 @@
 					    		<li class="contenedor-descripcion">
 					    			<div class="descipcion-seccion">
 					    				<div class="descripcion-seccion-img">
-					    					<img class="img-seccion-d" src="">
+					    					<img class="img-seccion-d" src="assets/css/images/industrialp.png">
 					    				</div>
 					    				<div class="descripcion-seccion-texto">
 					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
@@ -298,7 +300,7 @@
 					    		<li class="contenedor-descripcion">
 					    			<div class="descipcion-seccion">
 					    				<div class="descripcion-seccion-img">
-					    					<img class="img-seccion-d" src="">
+					    					<img class="img-seccion-d" src="assets/css/images/seguridadp.png">
 					    				</div>
 					    				<div class="descripcion-seccion-texto">
 					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
@@ -313,7 +315,7 @@
 					    		<li class="contenedor-descripcion">
 					    			<div class="descipcion-seccion">
 					    				<div class="descripcion-seccion-img">
-					    					<img class="img-seccion-d" src="">
+					    					<img class="img-seccion-d" src="assets/css/images/informaciontecp.png">
 					    				</div>
 					    				<div class="descripcion-seccion-texto">
 					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
@@ -334,7 +336,7 @@
 					    		<li class="contenedor-descripcion">
 					    			<div class="descipcion-seccion">
 					    				<div class="descripcion-seccion-img">
-					    					<img class="img-seccion-d" src="">
+					    					<img class="img-seccion-d" src="assets/css/images/industrialm.png">
 					    				</div>
 					    				<div class="descripcion-seccion-texto">
 					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
@@ -349,7 +351,7 @@
 					    		<li class="contenedor-descripcion">
 					    			<div class="descipcion-seccion">
 					    				<div class="descripcion-seccion-img">
-					    					<img class="img-seccion-d" src="">
+					    					<img class="img-seccion-d" src="assets/css/images/casam.png">
 					    				</div>
 					    				<div class="descripcion-seccion-texto">
 					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
@@ -364,7 +366,7 @@
 					    		<li class="contenedor-descripcion">
 					    			<div class="descipcion-seccion">
 					    				<div class="descripcion-seccion-img">
-					    					<img class="img-seccion-d" src="">
+					    					<img class="img-seccion-d" src="assets/css/images/redesm.png">
 					    				</div>
 					    				<div class="descripcion-seccion-texto">
 					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>
@@ -379,7 +381,7 @@
 					    		<li class="contenedor-descripcion">
 					    			<div class="descipcion-seccion">
 					    				<div class="descripcion-seccion-img">
-					    					<img class="img-seccion-d" src="">
+					    					<img class="img-seccion-d" src="assets/css/images/urbanom.png">
 					    				</div>
 					    				<div class="descripcion-seccion-texto">
 					    					<span class="texto-descripcion"></span><br><span class="texto-descripcion"></span><br><span class="texto-descripcion"></span>

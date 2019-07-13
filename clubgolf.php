@@ -109,6 +109,9 @@
 						</div>
 					</div>
 				</div>
+				<?php
+        			require 'copy.php'; 
+        		?>
 			</div>	
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

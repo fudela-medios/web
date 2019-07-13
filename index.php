@@ -18,10 +18,13 @@
 			    	require 'menu.php';
 				?>
 			<!-- Banner -->
-				<div class="contenido">
+				<div class="contenido" style="
+    background-color: beige;">
+				    <div class="ubicacion">
 					<?php
 						require 'standard.html'; 
 					?>
+					</div>
 				</div>
 
 			<!-- Highlights -->

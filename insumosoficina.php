@@ -18,11 +18,43 @@
 		?>
 		<section class="wrapper style1">
 			<div class="container">
-				<h3 align="center">Papeleria</h3>
+				<h3 align="center">Insumos de oficina</h3>
 				<section class="">
 					<div class="">
 						<a target="_blank" href="catalogos/6.pdf">
 							<iframe src="catalogos/papeleria/1.pdf" frameborder="0" width="100%" height="500px"></iframe>
+						</a>
+					</div>
+				</section>
+				<br>
+				<section class="">
+					<div class="">
+						<a target="_blank" href="catalogos/6.pdf">
+							<iframe src="catalogos/papeleria/2.pdf" frameborder="0" width="100%" height="500px"></iframe>
+						</a>
+					</div>
+				</section>
+				<br>
+				<section class="">
+					<div class="">
+						<a target="_blank" href="catalogos/6.pdf">
+							<iframe src="catalogos/papeleria/3.pdf" frameborder="0" width="100%" height="500px"></iframe>
+						</a>
+					</div>
+				</section>
+				<br>
+				<section class="">
+					<div class="">
+						<a target="_blank" href="catalogos/6.pdf">
+							<iframe src="catalogos/papeleria/4.pdf" frameborder="0" width="100%" height="500px"></iframe>
+						</a>
+					</div>
+				</section>
+				<br>
+				<section class="">
+					<div class="">
+						<a target="_blank" href="catalogos/6.pdf">
+							<iframe src="catalogos/papeleria/5.pdf" frameborder="0" width="100%" height="500px"></iframe>
 						</a>
 					</div>
 				</section>

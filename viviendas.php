@@ -26,7 +26,7 @@
 			</div>
 			<div>
 				<!-- -------------------- Vivienda --------------------- -->
-				<h2 align="center">Vivienda</h2>
+				<h2 align="center">Viviendas</h2>
 				<div class="galeria">
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
@@ -88,12 +88,10 @@
 							<img class="galeria_img" src="assets/css/images/catalogo/vivienda/12.jpg">
 						</div>
 					</div>
-					<div class="contenedor_imagen">
-						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/vivienda/13.jpg">
-						</div>
-					</div>
 				</div>
+				<?php
+        			require 'copy.php'; 
+        		?>
 			</div>	
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

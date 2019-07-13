@@ -28,7 +28,7 @@ $(document).ready(function(){
 		if (img.substr(66,1)!= '.'){
 		    subst=subst+img.substr(66,1);
 		}
-		if (subst == 13) {
+		if (subst == 12) {
 			//alert("Ultima imagen");
 		}
 		else{
@@ -77,7 +77,7 @@ $(document).keydown(function(e){
 		if (img.substr(66,1)!= '.'){
 		    subst=subst+img.substr(66,1);
 		}
-		if (subst == 13) {
+		if (subst == 12) {
 			//alert("Ultima imagen");
 		}
 		else{
