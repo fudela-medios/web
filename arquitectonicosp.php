@@ -4,6 +4,7 @@
 	
 	<title>Proyectos arquitect&oacute;nicos</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+	
 	<link rel="stylesheet" href="assets/css/matriz.css" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="shotcut icon" href="assets/css/images/logo4.ico">
@@ -16,30 +17,92 @@
 		<?php 
 			require 'menu.php';
 		?>
+		<div class="m">
 		<div class="con">
 			<div class="conte" >
 				<h2> Proyectos arquitect&oacute;nicos</h2>
+				<div class="conta">
+					<div class="columna-imagen">
+						<div class="img-servicio">
+							<img class="imagen-servicio" src="assets/css/images/arquitecturapp.png">
+						</div>
+					</div>
+					<div class="columna">
+						<span class="texto-columna">Enfocado a la realización de proyectos, dando seguimiento a las necesidades del usuario. En &aacute;reas tales como:</span><br>
+						<span class="apartados" id="ver" onclick="recuperavalor('v');" >Vivienda</span><br>
+						<span class="apartados" id="ver" onclick="recuperavalor('c');">Comercio</span><br>
+						<span class="apartados" id="ver" onclick="recuperavalor('r');">Remodelaciones</span><br>
+						<span class="apartados" id="ver" onclick="recuperavalor('a');">Ampliaciones</span><br>
+						<br><br><br>
+						<div class="barra-regreso" style="background-color: #CEE3F6;">
+							<div class="contenedor-barra">
+								<div class="elementos-barra">
+									
+								</div>
+								<div class="elementos-barra">
+									<div class="item-barra">
+										<button class="boton-regresar" onclick="mandar();">M&aacute;s informaci&oacute;n.</button>	
+									</div>
+								</div>					
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div><br>
+			<div class="conte" id="vivienda" style="display: none;">
+				<h2>Vivienda</h2>
+				<div class="conta">
+					<div class="columna-imagen">
+						<div class="img-servicio">
+							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/7.jpg">
+						</div>
+					</div>
+					<div class="columna">
+						<span class="texto-columna">De todos los niveles, as&iacute; como la aplicaci&oacute;n de tecnolog&iacute;as para hacerlas mas amigables con el ambiente, con el uso de eco tecnolog&iacute;as (paneles solares, calentadores solares, focos led, pintura con nanotecnolog&iacute;a, equipos ahorradores).</span><br>
+					</div>
+				</div>
 			</div>
-			<div class="conte">
-				<p class="texto">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
+			<div class="conte" id="comercio" style="display: none;">
+				<h2> Comercio</h2>
+				<div class="conta">
+					<div class="columna-imagen">
+						<div class="img-servicio">
+							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/7.jpg">
+						</div>
+					</div>
+					<div class="columna">
+						<span class="texto-columna">Dise&ntilde;o personalizado para un uso mas optimo del espacio e instalaciones para dar los servicios de acuerdo a las necesidades.</span><br>
+					</div>
+				</div>
 			</div>
-			<div class="conte">
-				<p class="texto">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
+			<div class="conte" id="remodelacion" style="display: none;">
+				<h2>Remodelaciones</h2>
+				<div class="conta">
+					<div class="columna-imagen">
+						<div class="img-servicio">
+							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/6.jpg">
+						</div>
+					</div>
+					<div class="columna">
+						<span class="texto-columna">Propuestas personalizas de acuerdo a las necesidades del cliente y aplicando la tecnolog&iacute;a mas actual a los espacios a intervenir.</span><br>
+					</div>
+				</div>
 			</div>
+			<div class="conte" id="ampliaciones" style="display: none;">
+				<h2>Ampliaciones</h2>
+				<div class="conta">
+					<div class="columna-imagen">
+						<div class="img-servicio">
+							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/2.jpg">
+						</div>
+					</div>
+					<div class="columna">
+						<span class="texto-columna">Las Ampliaciones de acuerdo a las necesidades del usuario y espacio disponible.</span><br>
+					</div>
+				</div>
+			</div>
+		</div>
 		</div>
 		<?php
 			require 'copy.php'; 
@@ -60,5 +123,6 @@
 					$('[data-toggle="tooltip"]').tooltip()
 				})
 			</script>
+			<script src="assets/js/displayelementos.js"></script>
 </body>
 </html>

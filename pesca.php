@@ -24,18 +24,73 @@
 				<div class="modal_boton">X</div>
 				<div class="modal_boton_i">&#62;</div>		
 			</div>
+				<div class="barra-regreso">
+					<div class="contenedor-barra">
+						<div class="elementos-barra">
+							<a class="lugar" href="index.php">
+								<span class="lugar-barra">Inicio/</span>
+							</a>
+							<a class="lugar" href="galeria.php">
+								<span class="lugar-barra">Galeria/</span>
+							</a>
+							<a class="lugar" href="pesca.php">
+								<span class="lugar-barra">Pesca recreativa</span>
+							</a>
+						</div>
+						<div class="elementos-barra">
+							<div class="item-barra">
+								<button class="boton-regresar" onclick="redireccionar();">Regresar</button>	
+							</div>
+						</div>					
+					</div>
+				</div>
 			<div>
 				<!-- -------------------- Pesca --------------------- -->
-				<h2 align="center">Pesca</h2>
+				<h2 align="center">Pesca recreativa</h2>
 				<div class="galeria">
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/34.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/pesca_recreativa/1.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/35.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/pesca_recreativa/2.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/pesca_recreativa/3.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/pesca_recreativa/4.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/pesca_recreativa/5.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/pesca_recreativa/6.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/pesca_recreativa/7.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/pesca_recreativa/8.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/pesca_recreativa/9.jpg">
 						</div>
 					</div>
 				</div>
@@ -58,7 +113,7 @@
 					$('[data-toggle="tooltip"]').tooltip()
 				})
 			</script>
-			<script src="assets/js/modal.js"></script>
+			<script src="assets/js/modal8.js"></script>
 		</div>
 	</body>
 </html>

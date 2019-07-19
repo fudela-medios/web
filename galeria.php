@@ -18,6 +18,16 @@
 				        require 'menu.php';
 				    ?>
 			<!-- Highlights -->
+			    <div class="barra-regreso">
+					<div class="contenedor-barra">
+							<a class="lugar" href="index.php">
+								<span class="lugar-barra">Inicio/</span>
+							</a>
+							<a class="lugar" href="galeria.php">
+								<span class="lugar-barra">Galer&iacute;a</span>
+							</a>				
+					</div>
+				</div>
 				<section class="wrapper style1">
 					<div class="container">
 						<div>
@@ -42,14 +52,19 @@ producciones en v&iacute;deo que se puede crear.</span>
 													<h3>Galería fotográfica</h3>
 												</a>
 										        <ul>
-										            <li><a class="opc" href="actividadesmontana.php">Actividades recreativas de montaña, pesca,ciclismo</a></li>
 										            <li><a class="opc" href="agroturismo.php">Agroturismo</a></li> 
-										             
+										             <li><a class="opc" href="ciclismo.php">Ciclismo de montaña</a></li>
 										            <li><a class="opc" href="clubgolf.php">Club de golf</a></li> 
 										            <li><a class="opc" href="clubhipico.php">Club hípico</a></li> 
 										            <li><a class="opc" href="granjatematica.php">Granja temática</a></li> 
 										            <li><a class="opc" href="hoteles.php">Hoteles / Condo-Hotel</a></li> 
-										            
+										            <li><a class="opc" href="laberinto.php">Laberinto</a></li>
+										            <li><a class="opc" href="pared.php">Pared de escalar</a></li>
+										            <li><a class="opc" href="pesca.php">Pesca recreativa</a></li>
+										            <li><a class="opc" href="puente.php">Puentes colgantes</a></li>
+                                                    <li><a class="opc" href="senderismo.php">Senderismo</a></li>
+                                                    <li><a class="opc" href="telesilla.php">Telesilla escénica</a></li>
+                                                    <li><a class="opc" href="tirolesa.php">Tirolesa</a></li>
 										            <li><a class="opc" href="viviendas.php">Viviendas</a></li>
 										        </ul>
 										    </li>
@@ -69,6 +84,7 @@ producciones en v&iacute;deo que se puede crear.</span>
 					</div>
 				</section>
 		</div>
+		<div class="espacio-menu"></div>
 		<?php
 			require 'copy.php'; 
 		?>

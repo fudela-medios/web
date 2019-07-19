@@ -30,7 +30,7 @@
 			<!-- Highlights -->
 				<section class="wrapper style1">
 					<div class="container">
-						<div>
+						<div clas="">
 							<section >
 								<div class="box highlight">
 									<i class="icon major fa-question"></i>

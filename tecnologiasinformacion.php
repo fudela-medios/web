@@ -16,20 +16,54 @@
 		<?php 
 			require 'menu.php';
 		?>
+		<div class="m">
 		<div class="con">
 			<div class="conte" >
 				<h2>Proyectos de tecnolog&iacute;as de informaci&oacute;n</h2>
+				<div class="conta">
+					<div class="columna-imagen">
+						<div class="img-servicio">
+							<img class="imagen-servicio" src="assets/css/images/informatica.jpg">
+						</div>
+					</div>
+					<div class="columna">
+						<span class="texto-columna">Enfocado a la realización de proyectos, dando seguimiento a las necesidades del usuario. En áreas tales como:</span>
+
+						<span class="apartados" id="ver" onclick="re('b');" >Bases de datos</span><br>
+						<span class="apartados" id="ver" onclick="re('p');">Programaci&oacute;n</span><br>
+						<span class="apartados" id="ver" onclick="re('r');">Redes de telecomunicaci&oacute;n</span><br>
+						<br><br>
+						<div class="barra-regreso" style="background-color: #CEE3F6;">
+							<div class="contenedor-barra">
+								<div class="elementos-barra">
+									
+								</div>
+								<div class="elementos-barra">
+									<div class="item-barra">
+										<button class="boton-regresar" onclick="mandar();">M&aacute;s informaci&oacute;n.</button>	
+									</div>
+								</div>					
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><br>
+			<div class="conte" id="b" style="display: none;">
+				<h2>Bases de datos</h2>
+				<span class="texto-columna">De acuerdo a los requerimientos del cliente podemos generar modelos de bases de datos, para ayudar al manejo de información.</span><br>
+				
 			</div>
-			<div class="conte">
-				<p class="texto">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
+			<div class="conte" id="p" style="display: none;">
+				<h2>Programaci&oacute;n</h2>
+				<span class="texto-columna">Enfocado en las necesidades del cliente podemos desarrollar software a la medida. Cubriendo las necesidades solicitadas </span><br>
+				
 			</div>
+			<div class="conte" id="r" style="display: none;">
+				<h2>Redes de telecomunicaci&oacute;n</h2>
+				<span class="texto-columna">En base a las necesidades del cliente y bajo normas de calidad podemos habilitar redes de comunicación </span><br>
+				
+			</div>
+		</div>
 		</div>
 		<?php
 			require 'copy.php'; 
@@ -50,5 +84,6 @@
 					$('[data-toggle="tooltip"]').tooltip()
 				})
 			</script>
+			<script src="assets/js/displayelementos.js"></script>
 </body>
 </html>

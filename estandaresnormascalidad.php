@@ -16,30 +16,59 @@
 		<?php 
 			require 'menu.php';
 		?>
+		<div class="m">
 		<div class="con">
 			<div class="conte" >
 				<h2>Est&aacute;ndares y normas de calidad</h2>
+				<div class="conta">
+					<div class="columna-imagen">
+						<div class="img-servicio">
+							<img class="imagen-servicio" src="assets/css/images/calidaee.png">
+						</div>
+					</div>
+					<div class="columna">
+						<span class="texto-columna">Estos cursos están enfocados en mejorar la calidad de los procesos para la empresa y así ganar la confianza de los clientes.</span><br>
+						<span class="apartados" id="ver" onclick="recupe('s');">Sistema Operativo de Calidad</span><br>
+						<span class="apartados" id="ver" onclick="recupe('i');">ISO 9001 </span><br>
+						<span class="apartados" id="ver" onclick="recupe('a');">Auditores Internos de Calidad</span><br>
+						<br><br><br>
+						<div class="barra-regreso" style="background-color: #CEE3F6;">
+							<div class="contenedor-barra">
+								<div class="elementos-barra">
+									
+								</div>
+								<div class="elementos-barra">
+									<div class="item-barra">
+										<button class="boton-regresar" onclick="mandar();">M&aacute;s informaci&oacute;n.</button>	
+									</div>
+								</div>					
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><br>
+			<div class="conte" id="sistema" style="display: none;">
+				<h2>Sistema operativo de la calidad</h2>
+				<span class="texto-columna">Los participantes de este curso aprenderán a administrar los procesos basándose en las normas de calidad, encaminando a la empresa a un proceso efectivo.</span><br>
+				<span class="apartados">Conocer los conceptos básicos del Sistema Operativo de Calidad.</span><br>
+				<span class="apartados">Identificar la importancia que tiene la gestión de la calidad establecida en un sistema de medición del desempeño. </span><br>
+				<span class="apartados">Aplicar el Sistema Operativo de Calidad en el proceso para mejorar la calidad.</span><br>
 			</div>
-			<div class="conte">
-				<p class="texto">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
+			<div class="conte" id="iso" style="display: none;">
+				<h2>ISO 9001</h2>
+				<span class="texto-columna">En este curso los participantes aprenderán la importancia de certificarse en el Sistema de Gestión de Calidad, ya que les permite competir en mercados nacionales e internacionales.</span><br>
+				<span class="apartados">Introducción a la familia de Normas ISO 9000.</span><br>
+				<span class="apartados">Conocer los requisitos de la norma ISO 9001 enfocada en los procesos.</span><br>
+				<span class="apartados">Aplicar el Sistema de Gestión de Calidad en el proceso de la empresa de manera efectiva.</span><br>
 			</div>
-			<div class="conte">
-				<p class="texto">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
+			<div class="conte" id="auditoria" style="display: none;">
+				<h2>Auditores Internos de Calidad</h2>
+				<span class="texto-columna">A través de este curso los participantes aprenderán cómo debe realizarse de forma adecuada una auditoría de calidad basada en la norma ISO 9001.</span><br>
+				<span class="apartados">Conceptos básicos y requisitos de un plan de auditoría.</span><br>
+				<span class="apartados">Aplicación de metodología con listas de verificación a través de casos prácticos.</span><br>
+				<span class="apartados">Realizar un reporte final de la auditoría y valorar el costo de las acciones realizadas.</span><br>
 			</div>
+		</div>
 		</div>
 		<?php
 			require 'copy.php'; 
@@ -60,5 +89,6 @@
 					$('[data-toggle="tooltip"]').tooltip()
 				})
 			</script>
+			<script src="assets/js/displayelementos.js"></script>
 </body>
 </html>

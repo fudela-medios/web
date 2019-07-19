@@ -25,6 +25,26 @@
 				<div class="modal_boton_i">&#62;</div>		
 			</div>
 			<div>
+			    <div class="barra-regreso">
+					<div class="contenedor-barra">
+						<div class="elementos-barra">
+							<a class="lugar" href="index.php">
+								<span class="lugar-barra">Inicio/</span>
+							</a>
+							<a class="lugar" href="galeria.php">
+								<span class="lugar-barra">Galeria/</span>
+							</a>
+							<a class="lugar" href="hoteles.php">
+								<span class="lugar-barra">Hoteles/Condo-Hotel</span>
+							</a>
+						</div>
+						<div class="elementos-barra">
+							<div class="item-barra">
+								<button class="boton-regresar" onclick="redireccionar();">Regresar</button>	
+							</div>
+						</div>					
+					</div>
+				</div>
 				<!-- -------------------- Hoteles --------------------- -->
 				<h2 align="center">Hoteles / Condo-Hotel</h2>
 				<div class="galeria">

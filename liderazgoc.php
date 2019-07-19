@@ -16,30 +16,59 @@
 		<?php 
 			require 'menu.php';
 		?>
+		<div class="m">
 		<div class="con">
 			<div class="conte" >
 				<h2>Liderazgo</h2>
+				<div class="conta">
+					<div class="columna-imagen">
+						<div class="img-servicio">
+							<img class="imagen-servicio" src="assets/css/images/liderazgoee.png">
+						</div>
+					</div>
+					<div class="columna">
+						<span class="texto-columna">Obtener competencias que permitan identificar áreas de oportunidad en la participación de equipos de trabajo, a través de las características que debe tener un líder.</span><br>
+						<span class="apartados" id="ver" onclick="recup('e');">El estudio del liderazgo </span><br>
+						<span class="apartados" id="ver" onclick="recup('c');">Competencias de un líder para lograr el cambio</span><br>
+						<span class="apartados" id="ver" onclick="recup('f');">Formación de líderes en equipos de trabajo</span><br>
+						
+						<div class="barra-regreso" style="background-color: #CEE3F6;">
+							<div class="contenedor-barra">
+								<div class="elementos-barra">
+									
+								</div>
+								<div class="elementos-barra">
+									<div class="item-barra">
+										<button class="boton-regresar" onclick="mandar();">M&aacute;s informaci&oacute;n.</button>	
+									</div>
+								</div>					
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><br>
+			<div class="conte" id="estudio" style="display: none;">
+				<h2>El estudio del liderazgo</h2>
+				<span class="texto-columna">En este curso los participantes conocerán las habilidades que los caracterice como un líder y que les brinde la capacidad de solucionar problemas dentro de la empresa.</span><br>
+				<span class="apartados">¿Qué es un líder?</span><br>
+				<span class="apartados">Tipos de liderazgo.</span><br>
+				<span class="apartados">Características de liderazgo.</span><br>
 			</div>
-			<div class="conte">
-				<p class="texto">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
+			<div class="conte" id="competencia" style="display: none;">
+				<h2>Competencias de un líder para lograr el cambio</h2>
+				<span class="texto-columna">Durante este curso los participantes podrán adquirir las competencias necesarias para tener un liderazgo que logre cambios dentro de la empresa.</span><br>
+				<span class="apartados">Modelo de competencias de liderazgo.</span><br>
+				<span class="apartados">Liderazgo y el resultado en los equipos de trabajo.</span><br>
+				<span class="apartados">Importancia del liderazgo en las empresas actuales.</span><br>
 			</div>
-			<div class="conte">
-				<p class="texto">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
+			<div class="conte" id="formacion" style="display: none;">
+				<h2>Formación de líderes en equipos de trabajo</h2>
+				<span class="texto-columna">En este curso los participantes aprenderán a motivar y a delegar actividades dentro de un equipo de trabajo que permitan mejorar la productividad dentro de la empresa.</span><br>
+				<span class="apartados">Inteligencia emocional</span><br>
+				<span class="apartados">Teorías de motivación</span><br>
+				<span class="apartados">Emplear técnicas de motivación que ayuden en el rendimiento del equipo de trabajo.</span><br>
 			</div>
+		</div>
 		</div>
 		<?php
 			require 'copy.php'; 
@@ -60,5 +89,6 @@
 					$('[data-toggle="tooltip"]').tooltip()
 				})
 			</script>
+			<script src="assets/js/displayelementos.js"></script>
 </body>
 </html>

@@ -16,31 +16,62 @@
 		<?php 
 			require 'menu.php';
 		?>
+		<div class="m">
 		<div class="con">
 			<div class="conte" >
 				<h2>Atenci&oacute;n y servicio al cliente</h2>
+				<div class="conta">
+					<div class="columna-imagen">
+						<div class="img-servicio">
+							<img class="imagen-servicio" src="assets/css/images/servicioclientee.png">
+						</div>
+					</div>
+					<div class="columna">
+						<span class="texto-columna">Los cursos permitirán desarrollar profesionalmente las habilidades del personal para que la atención a los clientes sea más agradable, ya que la atención es el factor más importante para lograr una lealtad con el cliente.</span><br>
+						<span class="apartados" id="ver" onclick="recupera('t');">Técnicas para manejar a clientes difíciles.</span><br>
+						<span class="apartados" id="ver" onclick="recupera('s');">Servicio al cliente interno</span><br>
+						<span class="apartados" id="ver" onclick="recupera('a');">Atención telefónica</span><br>
+						<br><br><br>
+						<div class="barra-regreso" style="background-color: #CEE3F6;">
+							<div class="contenedor-barra">
+								<div class="elementos-barra">
+									
+								</div>
+								<div class="elementos-barra">
+									<div class="item-barra">
+										<button class="boton-regresar" onclick="mandar();">M&aacute;s informaci&oacute;n.</button>	
+									</div>
+								</div>					
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><br>
+			<div class="conte" id="cdificil" style="display: none;">
+				<h2>Técnicas para manejar a clientes difíciles</h2>
+				<span class="texto-columna">Durante este curso, los participantes podrán adquirir la capacidad de manejar crisis creadas por los clientes insatisfechos por el servicio brindado a través de técnicas para tratar distintas actitudes.</span><br>
+				<span class="apartados">Definición y aplicación del proceso CEDA.</span><br>
+				<span class="apartados">Cómo se perciben las situaciones de crisis.</span><br>
+				<span class="apartados">Situaciones de conflicto más difíciles.</span><br>
+				<span class="apartados">Manejo apropiado de arreglos, quejas y sugerencias.</span><br>
 			</div>
-			<div class="conte">
-				<p class="texto">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
+			<div class="conte" id="cinterno" style="display: none;">
+				<h2>Servicio al cliente interno</h2>
+				<span class="texto-columna">Este curso logrará que los participantes brinden un servicio al cliente de manera más empática y profesional.</span><br>
+				<span class="apartados">Descubrir la importancia que tiene cada participante dentro de la empresa.</span><br>
+				<span class="apartados">Definir el concepto de servicio interno.</span><br>
+				<span class="apartados">Desarrollar conductas que les permitirán ofrecer un mejor servicio al cliente con calidad.</span><br>
 			</div>
-			<div class="conte">
-				<p class="texto">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
+			<div class="conte" id="ctelefono" style="display: none;">
+				<h2>Atención telefónica</h2>
+				<span class="texto-columna">A lo largo de este curso los participantes aprenderán a aplicar técnicas telefónicas para mejorar la atención al cliente a través de éste medio, a su vez transmitirán una sensación de calidez hacia el cliente.</span><br>
+				<span class="apartados">Fundamentos para ofrecer un servicio de calidad al cliente.</span><br>
+				<span class="apartados">Técnicas telefónicas que permitan una comunicación efectiva con el cliente.</span><br>
+				<span class="apartados">Solución de conflictos en la atención telefónica.</span><br>
 			</div>
 		</div>
+		</div>
+
 		<?php
 			require 'copy.php'; 
 		?>
@@ -60,5 +91,6 @@
 					$('[data-toggle="tooltip"]').tooltip()
 				})
 			</script>
+			<script src="assets/js/displayelementos.js"></script>
 </body>
 </html>

@@ -16,20 +16,104 @@
 		<?php 
 			require 'menu.php';
 		?>
+		<div class="m">
 		<div class="con">
 			<div class="conte" >
 				<h2>Mantenimiento urbano</h2>
+				<div class="conta">
+					<div class="columna-imagen">
+						<div class="img-servicio">
+							<img class="imagen-servicio" src="assets/css/images/urbanomm.png">
+						</div>
+					</div>
+					<div class="columna">
+						<span class="texto-columna"></span><br>
+						<span class="apartados" id="ver" onclick="recuperav('vi');" >Vialidades</span><br>
+						<span class="apartados" id="ver" onclick="recuperav('lu');">Luminarias</span><br>
+						<span class="apartados" id="ver" onclick="recuperav('ar');">&Aacute;reas verdes</span><br>
+						<span class="apartados" id="ver" onclick="recuperav('re');">Red de drenaje sanitario y pluvial</span><br>
+						<span class="apartados" id="ver" onclick="recuperav('ag');">Red de agua</span><br>
+						<div class="barra-regreso" style="background-color: #CEE3F6;">
+							<div class="contenedor-barra">
+								<div class="elementos-barra">
+									
+								</div>
+								<div class="elementos-barra">
+									<div class="item-barra">
+										<button class="boton-regresar" onclick="mandar();">M&aacute;s informaci&oacute;n.</button>	
+									</div>
+								</div>					
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><br>
+			<div class="conte" id="vialidades" style="display: none;">
+				<h2>Vialidades</h2>
+				<div class="conta">
+					<div class="columna-imagen">
+						<div class="img-servicio">
+							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/7.jpg">
+						</div>
+					</div>
+					<div class="columna">
+						<span class="texto-columna"></span><br>
+					</div>
+				</div>
 			</div>
-			<div class="conte">
-				<p class="texto">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
+			<div class="conte" id="luminaria" style="display: none;">
+				<h2> Luminarias</h2>
+				<div class="conta">
+					<div class="columna-imagen">
+						<div class="img-servicio">
+							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/7.jpg">
+						</div>
+					</div>
+					<div class="columna">
+						<span class="texto-columna"></span><br>
+					</div>
+				</div>
 			</div>
+			<div class="conte" id="areasv" style="display: none;">
+				<h2>&Aacute;reas verdes</h2>
+				<div class="conta">
+					<div class="columna-imagen">
+						<div class="img-servicio">
+							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/6.jpg">
+						</div>
+					</div>
+					<div class="columna">
+						<span class="texto-columna"></span><br>
+					</div>
+				</div>
+			</div>
+			<div class="conte" id="rdrenaje" style="display: none;">
+				<h2>Red de drenaje sanitario y pluvial</h2>
+				<div class="conta">
+					<div class="columna-imagen">
+						<div class="img-servicio">
+							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/2.jpg">
+						</div>
+					</div>
+					<div class="columna">
+						<span class="texto-columna"></span><br>
+					</div>
+				</div>
+			</div>
+			<div class="conte" id="ragua" style="display: none;">
+				<h2>Red de agua</h2>
+				<div class="conta">
+					<div class="columna-imagen">
+						<div class="img-servicio">
+							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/6.jpg">
+						</div>
+					</div>
+					<div class="columna">
+						<span class="texto-columna"></span><br>
+					</div>
+				</div>
+			</div>
+		</div>
 		</div>
 		<?php
 			require 'copy.php'; 
@@ -50,5 +134,6 @@
 					$('[data-toggle="tooltip"]').tooltip()
 				})
 			</script>
+			<script src="assets/js/displayelementos.js"></script>
 </body>
 </html>

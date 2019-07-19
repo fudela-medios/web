@@ -24,20 +24,87 @@
 				<div class="modal_boton">X</div>
 				<div class="modal_boton_i">&#62;</div>		
 			</div>
+			    <div class="barra-regreso">
+					<div class="contenedor-barra">
+						<div class="elementos-barra">
+							<a class="lugar" href="index.php">
+								<span class="lugar-barra">Inicio/</span>
+							</a>
+							<a class="lugar" href="galeria.php">
+								<span class="lugar-barra">Galeria/</span>
+							</a>
+							<a class="lugar" href="ciclismo.php">
+								<span class="lugar-barra">Ciclismo de montaña</span>
+							</a>
+						</div>
+						<div class="elementos-barra">
+							<div class="item-barra">
+								<button class="boton-regresar" onclick="redireccionar();">Regresar</button>	
+							</div>
+						</div>					
+					</div>
+				</div>
 			<div>
 				<!-- -------------------- Ciclismo --------------------- -->
-				<h2 align="center">Ciclismo</h2>
+				<h2 align="center">Ciclismo de montaña</h2>
 				<div class="galeria">
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/62.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/ciclismo_montana/1.jpg">
 						</div>
 					</div>
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/63.jpg">
+							<img class="galeria_img" src="assets/css/images/catalogo/ciclismo_montana/2.jpg">
 						</div>
 					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/ciclismo_montana/3.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/ciclismo_montana/4.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/ciclismo_montana/5.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/ciclismo_montana/6.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/ciclismo_montana/7.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/ciclismo_montana/8.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/ciclismo_montana/9.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/ciclismo_montana/10.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/ciclismo_montana/11.jpg">
+						</div>
+					</div>
+				</div>
+
 				</div>
 			</div>	
 			<?php
@@ -58,7 +125,7 @@
 					$('[data-toggle="tooltip"]').tooltip()
 				})
 			</script>
-			<script src="assets/js/modal.js"></script>
+			<script src="assets/js/modal7.js"></script>
 		</div>
 	</body>
 </html>

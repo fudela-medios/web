@@ -16,20 +16,104 @@
 		<?php 
 			require 'menu.php';
 		?>
+		<div class="m">
 		<div class="con">
 			<div class="conte" >
 				<h2>Mantenimiento residencial</h2>
+				<div class="conta">
+					<div class="columna-imagen">
+						<div class="img-servicio">
+							<img class="imagen-servicio" src="assets/css/images/casamm.png">
+						</div>
+					</div>
+					<div class="columna">
+						<span class="texto-columna">En general, o de las instalaciones que así lo requieran. Como pueden ser: </span><br>
+						<span class="apartados" id="ver" onclick="recuperava('el');">Instalaciones el&eacute;ctricas</span><br>
+						<span class="apartados" id="ver" onclick="recuperava('sa');">Sanitarias</span><br>
+						<span class="apartados" id="ver" onclick="recuperava('ag');">Agua</span><br>
+						<span class="apartados" id="ver" onclick="recuperava('ai');">Aire</span><br>
+						<span class="apartados" id="ver" onclick="recuperava('co');">Contra incendios</span><br>
+						<div class="barra-regreso" style="background-color: #CEE3F6;">
+							<div class="contenedor-barra">
+								<div class="elementos-barra">
+									
+								</div>
+								<div class="elementos-barra">
+									<div class="item-barra">
+										<button class="boton-regresar" onclick="mandar();">M&aacute;s informaci&oacute;n.</button>	
+									</div>
+								</div>					
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><br>
+			<div class="conte" id="electrica" style="display: none;">
+				<h2>Instalaciones el&eacute;ctricas</h2>
+				<div class="conta">
+					<div class="columna-imagen">
+						<div class="img-servicio">
+							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/7.jpg">
+						</div>
+					</div>
+					<div class="columna">
+						<span class="texto-columna"></span><br>
+					</div>
+				</div>
 			</div>
-			<div class="conte">
-				<p class="texto">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
+			<div class="conte" id="sanitaria" style="display: none;">
+				<h2> Sanitarias</h2>
+				<div class="conta">
+					<div class="columna-imagen">
+						<div class="img-servicio">
+							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/7.jpg">
+						</div>
+					</div>
+					<div class="columna">
+						<span class="texto-columna"></span><br>
+					</div>
+				</div>
 			</div>
+			<div class="conte" id="agua" style="display: none;">
+				<h2>Agua</h2>
+				<div class="conta">
+					<div class="columna-imagen">
+						<div class="img-servicio">
+							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/6.jpg">
+						</div>
+					</div>
+					<div class="columna">
+						<span class="texto-columna"></span><br>
+					</div>
+				</div>
+			</div>
+			<div class="conte" id="aire" style="display: none;">
+				<h2>Aire</h2>
+				<div class="conta">
+					<div class="columna-imagen">
+						<div class="img-servicio">
+							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/2.jpg">
+						</div>
+					</div>
+					<div class="columna">
+						<span class="texto-columna"></span><br>
+					</div>
+				</div>
+			</div>
+			<div class="conte" id="incendios" style="display: none;">
+				<h2>Contra incendios</h2>
+				<div class="conta">
+					<div class="columna-imagen">
+						<div class="img-servicio">
+							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/6.jpg">
+						</div>
+					</div>
+					<div class="columna">
+						<span class="texto-columna"></span><br>
+					</div>
+				</div>
+			</div>
+		</div>
 		</div>
 		<?php
 			require 'copy.php'; 
@@ -50,5 +134,6 @@
 					$('[data-toggle="tooltip"]').tooltip()
 				})
 			</script>
+			<script src="assets/js/displayelementos.js"></script>
 </body>
 </html>

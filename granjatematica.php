@@ -25,6 +25,26 @@
 				<div class="modal_boton_i">&#62;</div>		
 			</div>
 			<div>
+			    <div class="barra-regreso">
+					<div class="contenedor-barra">
+						<div class="elementos-barra">
+							<a class="lugar" href="index.php">
+								<span class="lugar-barra">Inicio/</span>
+							</a>
+							<a class="lugar" href="galeria.php">
+								<span class="lugar-barra">Galeria/</span>
+							</a>
+							<a class="lugar" href="granjatematica.php">
+								<span class="lugar-barra">Granja temática</span>
+							</a>
+						</div>
+						<div class="elementos-barra">
+							<div class="item-barra">
+								<button class="boton-regresar" onclick="redireccionar();">Regresar</button>	
+							</div>
+						</div>					
+					</div>
+				</div>
 				<!-- -------------------- Granja --------------------- -->
 				<h2 align="center">Granja temática</h2>
 				<div class="galeria">

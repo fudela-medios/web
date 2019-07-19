@@ -15,6 +15,7 @@
 		<?php 
 			require 'menu.php';
 		?>
+		<div class="m">
 		<div class="con">
 			<div class="conte">
 				<h2>Tecnolog&iacute;as de informaci&oacute;n</h2>
@@ -28,19 +29,27 @@
 				</div>
 				<div class="columna">
 					<span class="texto-columna">Enfocado a el manejo de software de ofimática, edición de foto y video básico y avanzado, mantenimiento preventivo y correctivo a equipos de cómputo.</span>
+					<span class="texto">Contamos con cursos y capacitaciones para las siguientes áreas:</span><br>
+				<span class="apartados" id="ver" onclick="rec('o');">Cursos de Office (Excel, Word, PowerPoint).</span><br>
+				<span class="apartados" id="ver" onclick="rec('m');">Curso de manejo de sistema operativo Mac (Básico)</span><br>
+				<span class="apartados" id="ver" onclick="rec('l');">Curso de manejo de sistema operativo Linux (Básico)</span><br>
+						<div class="barra-regreso" style="background-color: #CEE3F6;">
+							<div class="contenedor-barra">
+								<div class="elementos-barra">
+									
+								</div>
+								<div class="elementos-barra">
+									<div class="item-barra">
+										<button class="boton-regresar" onclick="mandar();">M&aacute;s informaci&oacute;n.</button>	
+									</div>
+								</div>					
+							</div>
+						</div>
 				</div>
-			</div>
-			<div class="conte">
-				<span class="texto">Contamos con cursos y capacitaciones para las siguientes áreas:</span><br>
-				<span class="apartados">Cursos de Office (Excel, Word, PowerPoint).</span><br>
-				<span class="apartados">Curso de manejo de sistema operativo Mac (Básico)</span><br>
-				<span class="apartados">Curso de manejo de sistema operativo Linux (Básico)</span><br>
-				<span class="apartados">Edición de video y fotografía (Básico)</span><br>
-
-			</div>
-			<div class="conte">
-				<span class="texto"><a href="#">Curso de Office</a></span><br>
-				<span class="texto" align="justify">Este curso comprende los conocimientos básicos para que cualquier persona pueda utilizar Word, PowerPoint y Excel de mejor forma, viendo los siguientes puntos:</span><br>
+			</div><br>
+			<div class="conte" id="o" style="display: none;">
+				<h2>Curso de Office</h2><br>
+				<span class="texto-columna" align="justify">Este curso comprende los conocimientos básicos para que cualquier persona pueda utilizar Word, PowerPoint y Excel de mejor forma, viendo los siguientes puntos:</span><br>
 				<div class="conta">
 					<div class="columnaa">
 						<span class="apartados">El entorno de Word 2016</span><br>
@@ -63,16 +72,16 @@
 					</div>
 				</div>
 			</div>
-			<div class="conte">
-				<span class="texto"><a href="#">Curso de manejo de sistema operativo Mac</a></span><br>
-				<span class="texto" align="justify">Este curso dará a los participantes el conocimiento sobre el entorno de MAC, así como diferentes actividades que se pueden realizar.</span><br>
+			<div class="conte" id="m"  style="display: none;">
+				<h2>Curso de manejo de sistema operativo Mac</h2><br>
+				<span class="texto-columna" align="justify">Este curso dará a los participantes el conocimiento sobre el entorno de MAC, así como diferentes actividades que se pueden realizar.</span><br>
 					<span class="apartados">Instalación y configuración del sistema</span><br>
 					<span class="apartados">Optimización del sistema</span><br>
 					<span class="apartados">Instalación y administración de aplicaciones</span><br>
 					<span class="apartados">Administración de usuarios.</span><br>
 			</div>
-			<div class="conte">
-				<span class="texto"><a href="#">Curso de manejo de sistema operativo GNU/Linux</a></span><br>
+			<div class="conte" id="l"  style="display: none;">
+				<h2>Curso de manejo de sistema operativo GNU/Linux</h2><br>
 				<span class="texto" align="justify">
 				    Permite a los participantes obtener el conocimiento para trabajar sobre un entorno GNU/Linux, que abarca desde los comandos básicos, las herramientas que dispone el sistema operativo, la instalación del entorno de trabajo hasta la administración de procesos y usuarios.</span><br>
 					<span class="apartados">Instalación y Configuración GNU/Linux</span><br>
@@ -102,5 +111,6 @@
 			</script>
 			<script src="assets/js/notificaciones.js"></script>
 			<script src="assets/js/menus.js"></script>
+			<script src="assets/js/displayelementos.js"></script>
 </body>
 </html>

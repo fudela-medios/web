@@ -64,3 +64,10 @@
 					visibleClass: 'navPanel-visible'
 				});
 })(jQuery);
+
+function redireccionar(){
+	window.location ="galeria.php#galeria";
+} 
+function mandar(){
+	window.location ="contacto.php#contacto";
+} 

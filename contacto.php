@@ -21,7 +21,7 @@
 				?>
 			<!-- Highlights -->
 			<h2 align="center" class="titulo" id="titulo-seccion">Contacto</h2>
-			<div class="container">
+			<div class="container-contacto">
 			    
 				<div class="container-contact100">
 					<form  method="post" action="cont/eco.php">
@@ -81,7 +81,7 @@
 
 						          <div class="flex-col size2">
 						            <label class="campo">
-						              Telefono:
+						              Tel&eacute;fono:
 						            </label>
 
 						            <label class="campo">

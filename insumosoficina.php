@@ -60,6 +60,18 @@
 				</section>
 			</div>
 		</section>
+		        <div class="barra-regreso">
+					<div class="contenedor-barra">
+						<div class="elementos-barra">
+							
+						</div>
+						<div class="elementos-barra">
+							<div class="item-barra">
+								<button class="boton-regresar" onclick="mandar();">Cotiza ahora</button>	
+							</div>
+						</div>					
+					</div>
+				</div>
 		<?php
 			require 'copy.php'; 
 		?>

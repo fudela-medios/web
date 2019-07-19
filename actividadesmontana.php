@@ -25,15 +25,31 @@
 				<div class="modal_boton_i">&#62;</div>		
 			</div>
 			<div>
+			    <div class="barra-regreso">
+					<div class="contenedor-barra">
+						<div class="elementos-barra">
+							<a class="lugar" href="index.php">
+								<span class="lugar-barra">Inicio/</span>
+							</a>
+							<a class="lugar" href="galeria.php">
+								<span class="lugar-barra">Galeria/</span>
+							</a>
+							<a class="lugar" href="actividadesmontana.php">
+								<span class="lugar-barra">Actividades de montaña,pesca,ciclismo</span>
+							</a>
+						</div>
+						<div class="elementos-barra">
+							<div class="item-barra">
+								<button class="boton-regresar" onclick="redireccionar();">Regresar</button>	
+							</div>
+						</div>					
+					</div>
+				</div>
 				<!--  actividades de montaña --------------------- -->
 				<h2 align="center">Actividades de montaña</h2>
 				
 				<div class="galeria">
-					<div class="contenedor_imagen">
-						<div class="galeria_item">
-							<img id="mon" class="galeria_img" src="assets/css/images/catalogo/montana/1.jpg">
-						</div>
-					</div>
+					
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
 							<img id="mon" class="galeria_img" src="assets/css/images/catalogo/montana/2.jpg">

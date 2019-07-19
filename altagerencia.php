@@ -2,7 +2,7 @@
 <html lang="es">
 <head><meta http-equiv="Content-Type" content="text/html; charset=gb18030">
 	
-	<title>Alta gerencia</title>
+	<title>Direcci&oacute;n gerencial</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 	<link rel="stylesheet" href="assets/css/matriz.css" />
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -16,30 +16,59 @@
 		<?php 
 			require 'menu.php';
 		?>
+		<div class="m">
 		<div class="con">
 			<div class="conte" >
-				<h2>Alta gerencia</h2>
+				<h2>Direcci&oacute;n gerencial</h2>
+				<div class="conta">
+					<div class="columna-imagen">
+						<div class="img-servicio">
+							<img class="imagen-servicio" src="assets/css/images/gerenciaa.png">
+						</div>
+					</div>
+					<div class="columna">
+						<span class="texto-columna">Cursos para directores o gerentes de empresas, que ayudarán a desarrollar habilidades de dirección y planeación para lograr que la empresa vaya en la dirección que se desea.</span><br>
+						<span class="apartados" id="ver" onclick="recuper('t');">Toma de decisiones</span><br>
+						<span class="apartados" id="ver" onclick="recuper('p');">Planeación estratégica</span><br>
+						<span class="apartados" id="ver" onclick="recuper('h');">Habilidades gerenciales</span><br>
+						<br><br><br>
+						<div class="barra-regreso" style="background-color: #CEE3F6;">
+							<div class="contenedor-barra">
+								<div class="elementos-barra">
+									
+								</div>
+								<div class="elementos-barra">
+									<div class="item-barra">
+										<button class="boton-regresar" onclick="mandar();">M&aacute;s informaci&oacute;n.</button>	
+									</div>
+								</div>					
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><br>
+			<div class="conte" id="tdecisiones" style="display: none;">
+				<h2>Toma de decisiones</h2>
+				<span class="texto-columna">En este curso los participantes tomarán decisiones de manera óptima gracias a las diversas técnicas que existen.</span><br>
+				<span class="apartados">¿Qué es la toma de decisiones?</span><br>
+				<span class="apartados">Técnicas y métodos para la toma de decisiones</span><br>
+				<span class="apartados">Aplicación de técnicas en casos prácticos.</span><br>
 			</div>
-			<div class="conte">
-				<p class="texto">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
+			<div class="conte" id="pestrategica" style="display: none;">
+				<h2>Planeación estratégica</h2>
+				<span class="texto-columna">Al finalizar este curso los participantes podrán planear de forma adecuada la dirección a la que quieren dirigir su empresa para posicionarla en un mejor mercado y cumplir los objetivos.</span><br>
+				<span class="apartados">Conceptos básicos de planeación estratégica.</span><br>
+				<span class="apartados">Partes que conforman un plan estratégico.</span><br>
+				<span class="apartados">Diseñar un plan estratégico.</span><br>
 			</div>
-			<div class="conte">
-				<p class="texto">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
+			<div class="conte" id="hgerencia" style="display: none;">
+				<h2>Habilidades gerenciales</h2>
+				<span class="texto-columna">En este curso los participantes aplicarán métodos de liderazgo y delegación de actividades para mejorar la productividad y el desempeño de los trabajadores en la empresa.</span><br>
+				<span class="apartados">Inteligencia emocional.</span><br>
+				<span class="apartados">Métodos para la administración del tiempo.</span><br>
+				<span class="apartados">Coaching e integración de grupos de trabajo.</span><br>
 			</div>
+		</div>
 		</div>
 		<?php
 			require 'copy.php'; 
@@ -60,5 +89,7 @@
 					$('[data-toggle="tooltip"]').tooltip()
 				})
 			</script>
+			<script src="assets/js/displayelementos.js"></script>
+</body>
 </body>
 </html>

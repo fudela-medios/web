@@ -25,6 +25,26 @@
 				<div class="modal_boton_i">&#62;</div>		
 			</div>
 			<div>
+			    <div class="barra-regreso">
+					<div class="contenedor-barra">
+					    <div class="elementos-barra">
+							<a class="lugar" href="index.php">
+								<span class="lugar-barra">Inicio/</span>
+							</a>
+							<a class="lugar" href="galeria.php">
+								<span class="lugar-barra">Galeria/</span>
+							</a>
+							<a class="lugar" href="agroturismo.php">
+								<span class="lugar-barra">Agroturismo</span>
+							</a>
+						</div>
+						<div class="elementos-barra">
+							<div class="item-barra">
+								<button class="boton-regresar" onclick="redireccionar();">Regresar</button>	
+							</div>
+						</div>					
+					</div>
+				</div>
 				<!-- -------------------- Agroturismo--------------------- -->
 				<h2 align="center">Agroturismo</h2>
 				<div class="galeria">
@@ -71,26 +91,6 @@
 					<div class="contenedor_imagen">
 						<div class="galeria_item">
 							<img class="galeria_img" src="assets/css/images/catalogo/agroturismo/9.jpg">
-						</div>
-					</div>
-					<div class="contenedor_imagen">
-						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/agroturismo/10.jpg">
-						</div>
-					</div>
-					<div class="contenedor_imagen">
-						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/agroturismo/11.jpg">
-						</div>
-					</div>
-					<div class="contenedor_imagen">
-						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/agroturismo/12.jpg">
-						</div>
-					</div>
-					<div class="contenedor_imagen">
-						<div class="galeria_item">
-							<img class="galeria_img" src="assets/css/images/catalogo/agroturismo/13.jpg">
 						</div>
 					</div>
 				</div>

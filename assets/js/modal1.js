@@ -30,7 +30,7 @@ $(document).ready(function(){
 		if (img.substr(65,1)!= '.'){
 		    subst=subst+img.substr(65,1);
 		}
-		if (subst == 45) {
+		if (subst == 45) {//el numero maximo de imagenes que tengas es el numero maximo que debe estar aqui
 			//alert("Ultima imagen");
 		}
 		else{
@@ -80,7 +80,7 @@ $(document).keydown(function(e){
 		if (img.substr(65,1)!= '.'){
 		    subst=subst+img.substr(65,1);
 		}
-		if (subst == 45) {
+		if (subst == 45) {//numero de imagenes es el que va aqui
 			//alert("Ultima imagen");
 		}
 		else{
