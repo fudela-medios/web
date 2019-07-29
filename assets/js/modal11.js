@@ -88,3 +88,37 @@ $(document).keydown(function(e){
 		}
 	}
 });
+$(document).ready(function(){
+    $( "div.modal" ).on( "swipeleft", function(){
+        var img = $('img.modal_img').attr("src");
+		var subst = img.substr(72,1);
+		if (img.substr(73,1)!= '.'){
+		    subst=subst+img.substr(73,1);
+		}
+		if (subst == 9) {
+			//alert("Ultima imagen");
+		}
+		else{
+			var subst2 = parseInt(subst)+1;
+			var nimg = img.replace(subst,subst2);
+			$('img.modal_img').attr("src",nimg);
+		}
+    } );
+});
+$(document).ready(function(){
+    $( "div.modal" ).on( "swiperight", function(){
+        var img = $('img.modal_img').attr("src");
+		var subst = img.substr(72,1);
+		if (img.substr(73,1)!= '.'){
+		    subst=subst+img.substr(73,1);
+		}
+		if(subst == 1){
+			//alert("Primera imagen");
+		}
+		else{
+			var subst2 = subst-1;
+			var nimg = img.replace(subst,subst2);
+			$('img.modal_img').attr("src",nimg);
+		}
+    } );
+});

@@ -53,12 +53,15 @@ producciones en v&iacute;deo que se puede crear.</span>
 												</a>
 										        <ul>
 										            <li><a class="opc" href="agroturismo.php">Agroturismo</a></li> 
+										            <li><a class="opc" href="bicicross.php">Bicicross</a></li>
+										            <li><a class="opc" href="camping.php">Camping</a></li>
 										             <li><a class="opc" href="ciclismo.php">Ciclismo de montaña</a></li>
 										            <li><a class="opc" href="clubgolf.php">Club de golf</a></li> 
 										            <li><a class="opc" href="clubhipico.php">Club hípico</a></li> 
 										            <li><a class="opc" href="granjatematica.php">Granja temática</a></li> 
 										            <li><a class="opc" href="hoteles.php">Hoteles / Condo-Hotel</a></li> 
 										            <li><a class="opc" href="laberinto.php">Laberinto</a></li>
+										            <li><a class="opc" href="minigolf.php">Mini golf</a></li>
 										            <li><a class="opc" href="pared.php">Pared de escalar</a></li>
 										            <li><a class="opc" href="pesca.php">Pesca recreativa</a></li>
 										            <li><a class="opc" href="puente.php">Puentes colgantes</a></li>
@@ -99,6 +102,7 @@ producciones en v&iacute;deo que se puede crear.</span>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 			<script type="text/javascript">
+			    document.oncontextmenu = function(){return false}
 				$(function () {
 					$('[data-toggle="tooltip"]').tooltip()
 				})

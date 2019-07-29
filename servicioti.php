@@ -9,8 +9,8 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/serviciosti.css">
 </head>
-<body class="is-preload">
-	<div id="page-wrapper">
+<body>
+	<div>
 		<!-- Header -->
 		<?php 
 			require 'menu.php';
@@ -18,34 +18,31 @@
 		<div class="m">
 		<div class="con">
 			<div class="conte">
-				<h2>Tecnolog&iacute;as de informaci&oacute;n</h2>
-			</div>
-			<div class="conta">
-
-				<div class="columna-imagen">
-					<div class="img-servicio">
-						<img class="imagen-servicio" src="assets/css/images/informatica.jpg">
-					</div>
-				</div>
-				<div class="columna">
-					<span class="texto-columna">Enfocado a el manejo de software de ofimática, edición de foto y video básico y avanzado, mantenimiento preventivo y correctivo a equipos de cómputo.</span>
-					<span class="texto">Contamos con cursos y capacitaciones para las siguientes áreas:</span><br>
-				<span class="apartados" id="ver" onclick="rec('o');">Cursos de Office (Excel, Word, PowerPoint).</span><br>
-				<span class="apartados" id="ver" onclick="rec('m');">Curso de manejo de sistema operativo Mac (Básico)</span><br>
-				<span class="apartados" id="ver" onclick="rec('l');">Curso de manejo de sistema operativo Linux (Básico)</span><br>
-						<div class="barra-regreso" style="background-color: #CEE3F6;">
-							<div class="contenedor-barra">
-								<div class="elementos-barra">
-									
-								</div>
-								<div class="elementos-barra">
-									<div class="item-barra">
-										<button class="boton-regresar" onclick="mandar();">M&aacute;s informaci&oacute;n.</button>	
-									</div>
-								</div>					
-							</div>
-						</div>
-				</div>
+			    <h2>Tecnolog&iacute;as de informaci&oacute;n</h2>
+			    <div class="conta">
+    				<div class="columna-imagen">
+    					<div class="img-servicio">
+    						<img class="imagen-servicio" src="assets/css/images/informatica.jpg">
+    					</div>
+    				</div>
+    				<div class="columna-texto">
+    					<span class="texto-columna">Enfocado al manejo de software, utilizaci&oacute;n adecuada del equipo de c&oacute;mputo.</span><br>
+    						<span class="apartados">Cursos sabatinos.</span><br>
+    					<br>
+    						<div class="barra-regreso" style="background-color: #CEE3F6;">
+    							<div class="contenedor-barra">
+    								<div class="elementos-barra">
+    									
+    								</div>
+    								<div class="elementos-barra">
+    									<div class="item-barra">
+    										<button class="boton-regresar" onclick="mandar();">Para mayor informaci&oacute;n.</button>	
+    									</div>
+    								</div>					
+    							</div>
+    						</div>
+    				</div>
+			    </div>
 			</div><br>
 			<div class="conte" id="o" style="display: none;">
 				<h2>Curso de Office</h2><br>
@@ -105,12 +102,12 @@
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 			<script type="text/javascript">
+			    document.oncontextmenu = function(){return false}
 				$(function () {
 					$('[data-toggle="tooltip"]').tooltip()
 				})
 			</script>
 			<script src="assets/js/notificaciones.js"></script>
-			<script src="assets/js/menus.js"></script>
 			<script src="assets/js/displayelementos.js"></script>
 </body>
 </html>

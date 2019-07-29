@@ -114,23 +114,6 @@
 					    	</ul>
 					    </li>
 					    <li>
-					    	<a href="estandaresnormascalidad.php">Est&aacute;ndares y normas de calidad</a>
-					    	<ul>
-					    		<li class="contenedor-descripcion">
-					    			<a href="estandaresnormascalidad.php">
-					    			<div class="descipcion-seccion">
-					    				<div class="descripcion-seccion-img">
-					    					<img class="img-seccion-d" src="assets/css/images/calidae.png">
-					    				</div>
-					    				<div class="descripcion-seccion-texto">
-					    					<span class="texto-descripcion">En esta secci&oacute;n encontrar&aacute; cursos para mejorar la calidad de los procesos empresariales.</span>
-					    				</div> 
-					    			</div>
-					    			</a>
-					    		</li>
-					    	</ul>
-					    </li>
-					    <li>
 					    	<a href="liderazgoc.php">Liderazgo</a>
 					    	<ul>
 					    		<li class="contenedor-descripcion">
@@ -165,7 +148,7 @@
 					    	</ul>
 					    </li>
 						<li>
-							<a href="servicioti.php">Tecnolog&iacute;as de informaci&oacute;n</a>
+							<a href="capacitacionti.php">Tecnolog&iacute;as de informaci&oacute;n</a>
 							<ul>
 					    		<li class="contenedor-descripcion">
 					    			<a href="servicioti.php">
@@ -273,7 +256,7 @@
 						</li>
 					</ul>
 				</li>
-				<li data-toggle="tooltip" data-placement="top"  title="Personal" id="menupersonal" class="menu"><img  class="icono" src="assets/css/images/personal.png">								
+				<li  id="menupersonal" class="menu"><img  class="icono" src="assets/css/images/personal.png">								
 				</li>
 				<li data-toggle="tooltip" data-placement="top" title="Proyectos" id="menuproyectos" class="menu"><img  class="icono" src="assets/css/images/proyectos.png">
 					<ul>

@@ -26,7 +26,7 @@
 							<img class="imagen-servicio" src="assets/css/images/calidaee.png">
 						</div>
 					</div>
-					<div class="columna">
+					<div class="columna-texto">
 						<span class="texto-columna">Estos cursos están enfocados en mejorar la calidad de los procesos para la empresa y así ganar la confianza de los clientes.</span><br>
 						<span class="apartados" id="ver" onclick="recupe('s');">Sistema Operativo de Calidad</span><br>
 						<span class="apartados" id="ver" onclick="recupe('i');">ISO 9001 </span><br>
@@ -50,23 +50,23 @@
 			<div class="conte" id="sistema" style="display: none;">
 				<h2>Sistema operativo de la calidad</h2>
 				<span class="texto-columna">Los participantes de este curso aprenderán a administrar los procesos basándose en las normas de calidad, encaminando a la empresa a un proceso efectivo.</span><br>
-				<span class="apartados">Conocer los conceptos básicos del Sistema Operativo de Calidad.</span><br>
-				<span class="apartados">Identificar la importancia que tiene la gestión de la calidad establecida en un sistema de medición del desempeño. </span><br>
-				<span class="apartados">Aplicar el Sistema Operativo de Calidad en el proceso para mejorar la calidad.</span><br>
+				<span class="apartados" id="verc">Conocer los conceptos básicos del Sistema Operativo de Calidad.</span><br>
+				<span class="apartados" id="verc">Identificar la importancia que tiene la gestión de la calidad establecida en un sistema de medición del desempeño. </span><br>
+				<span class="apartados" id="verc">Aplicar el Sistema Operativo de Calidad en el proceso para mejorar la calidad.</span><br>
 			</div>
 			<div class="conte" id="iso" style="display: none;">
 				<h2>ISO 9001</h2>
 				<span class="texto-columna">En este curso los participantes aprenderán la importancia de certificarse en el Sistema de Gestión de Calidad, ya que les permite competir en mercados nacionales e internacionales.</span><br>
-				<span class="apartados">Introducción a la familia de Normas ISO 9000.</span><br>
-				<span class="apartados">Conocer los requisitos de la norma ISO 9001 enfocada en los procesos.</span><br>
-				<span class="apartados">Aplicar el Sistema de Gestión de Calidad en el proceso de la empresa de manera efectiva.</span><br>
+				<span class="apartados" id="verc">Introducción a la familia de Normas ISO 9000.</span><br>
+				<span class="apartados" id="verc">Conocer los requisitos de la norma ISO 9001 enfocada en los procesos.</span><br>
+				<span class="apartados" id="verc">Aplicar el Sistema de Gestión de Calidad en el proceso de la empresa de manera efectiva.</span><br>
 			</div>
 			<div class="conte" id="auditoria" style="display: none;">
 				<h2>Auditores Internos de Calidad</h2>
 				<span class="texto-columna">A través de este curso los participantes aprenderán cómo debe realizarse de forma adecuada una auditoría de calidad basada en la norma ISO 9001.</span><br>
-				<span class="apartados">Conceptos básicos y requisitos de un plan de auditoría.</span><br>
-				<span class="apartados">Aplicación de metodología con listas de verificación a través de casos prácticos.</span><br>
-				<span class="apartados">Realizar un reporte final de la auditoría y valorar el costo de las acciones realizadas.</span><br>
+				<span class="apartados" id="verc">Conceptos básicos y requisitos de un plan de auditoría.</span><br>
+				<span class="apartados" id="verc">Aplicación de metodología con listas de verificación a través de casos prácticos.</span><br>
+				<span class="apartados" id="verc">Realizar un reporte final de la auditoría y valorar el costo de las acciones realizadas.</span><br>
 			</div>
 		</div>
 		</div>

@@ -14,7 +14,7 @@ img{
 	width: 30%;
 }
 h2{
-    padding-top:3%;
+    
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
@@ -44,7 +44,91 @@ h2{
 	    height: 200px;
     }
 }
-
+@media screen and (max-width: 1024px) {
+    .contenedor_imagen{
+    	width: 50%;
+    }
+    .galeria{
+    	padding: 5% 5% 0% 5%;
+    	display: flex;
+    	flex-wrap: wrap;
+    	justify-content: center;
+    }
+    .box .highlight{
+    	cursor:pointer;
+    }
+    
+    .galeria_item{
+    	width: 90%;
+    	height: 90%;
+    	cursor:pointer;
+    }
+    .galeria_img{
+    	width: 100%;
+    	height: 150px;
+    	margin: 5% 0%;
+    	cursor:pointer;
+    }
+    .modal_boton_d{
+        display: none;
+    }
+    .modal_boton_i{
+        display: none;
+    }
+}
+@media screen and (max-width: 900px) {
+    .contenedor_imagen{
+    	width: 80%;
+    }
+    .galeria{
+    	padding: 5% 5% 0% 5%;
+    	display: flex;
+    	flex-wrap: wrap;
+    	justify-content: center;
+    }
+    .box .highlight{
+    	cursor:pointer;
+    }
+    
+    .galeria_item{
+    	width: 90%;
+    	height: 90%;
+    	cursor:pointer;
+    	margin-left: 5%;
+    }
+    .galeria_img{
+    	width: 100%;
+    	height: 180px;
+    	margin: 5% 0%;
+    	cursor:pointer;
+    }
+}
+@media screen and (max-width: 450px) {
+    .contenedor_imagen{
+    	width: 80%;
+    }
+    .galeria{
+    	padding: 5% 5% 0% 5%;
+    	display: flex;
+    	flex-wrap: wrap;
+    	justify-content: center;
+    }
+    .box .highlight{
+    	cursor:pointer;
+    }
+    
+    .galeria_item{
+    	width: 80%;
+    	height: 80%;
+    	cursor:pointer;
+    }
+    .galeria_img{
+    	width: 100%;
+    	height: 110px;
+    	margin: 5%;
+    	cursor:pointer;
+    }
+}
 .modal{
 	position: fixed;
 	width: 100%;
@@ -73,7 +157,7 @@ h2{
 	border-radius: 50%;
 	position: absolute;
 	right: 10px;
-	top: 5px;
+	top: 75px;
 	cursor: pointer;
 }
 .modal_boton:hover{
@@ -95,9 +179,6 @@ h2{
 	top: 50%;
 	cursor: pointer;
 }
-.modal_boton_d:hover{
-    color: #c0c0c0;
-}
 .modal_boton_i{
 	width: 50px;
 	height: 50px;
@@ -114,10 +195,32 @@ h2{
 	top: 50%;
 	cursor: pointer;
 }
-.modal_boton_i:hover{
-    color: #c0c0c0;
+@media screen and (max-width: 900px) {
+    .modal_boton{
+        top: 90px;
+    }
+    .modal_boton_d{
+        width: 50%;
+        height: 80%;
+        right: 49.9%;
+        top: 10.5%;
+        font-size: 0px;
+    }
+    .modal_boton_i{
+        width: 50%;
+        height: 80%;
+        right: 0%;
+        top: 10.5%;
+        font-size: 0px;
+    }
+    .modal_img{
+        width: 80%;
+        height: 35%;
+    }
+    
 }
-
+@media screen and (max-width: 450px) {
+}
 .descripcion{
 	width: 70%;
 	height: 50%;

@@ -26,13 +26,9 @@
 							<img class="imagen-servicio" src="assets/css/images/industrialpp.png">
 						</div>
 					</div>
-					<div class="columna">
-						<span class="texto-columna">Enfocado en la generaci&oacute;n de proyectos, cubriendo las necesidades del cliente o hacia la industria a la que est&aacute; enfocada. Como pueden ser:</span><br>
-						<span class="apartados" id="ver" onclick="recuperavalo('al');" >Alimentaria </span><br>
-						<span class="apartados" id="ver" onclick="recuperavalo('ma');">Manufactura</span><br>
-						<span class="apartados" id="ver" onclick="recuperavalo('qu');">Química</span><br>
-						<span class="apartados" id="ver" onclick="recuperavalo('me');">Medica</span><br>
-						<span class="apartados" id="ver" onclick="recuperavalo('au');">Automotriz</span><br>
+					<div class="columna-texto">
+						<span class="texto-columna">Enfocado en la generaci&oacute;n de proyectos, cubriendo las necesidades del cliente o hacia la industria a la que est&aacute; enfocada.</span><br>
+						
 						
 						<div class="barra-regreso" style="background-color: #CEE3F6;">
 							<div class="contenedor-barra">
@@ -41,7 +37,7 @@
 								</div>
 								<div class="elementos-barra">
 									<div class="item-barra">
-										<button class="boton-regresar" onclick="mandar();">M&aacute;s informaci&oacute;n.</button>	
+										<button class="boton-regresar" onclick="mandar();">Para mayor informaci&oacute;n.</button>	
 									</div>
 								</div>					
 							</div>
@@ -57,7 +53,7 @@
 							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/7.jpg">
 						</div>
 					</div>
-					<div class="columna">
+					<div class="columna-texto">
 						<span class="texto-columna"></span><br>
 					</div>
 				</div>
@@ -70,7 +66,7 @@
 							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/7.jpg">
 						</div>
 					</div>
-					<div class="columna">
+					<div class="columna-texto">
 						<span class="texto-columna"></span><br>
 					</div>
 				</div>
@@ -83,7 +79,7 @@
 							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/6.jpg">
 						</div>
 					</div>
-					<div class="columna">
+					<div class="columna-texto">
 						<span class="texto-columna"></span><br>
 					</div>
 				</div>
@@ -96,7 +92,7 @@
 							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/2.jpg">
 						</div>
 					</div>
-					<div class="columna">
+					<div class="columna-texto">
 						<span class="texto-columna"></span><br>
 					</div>
 				</div>
@@ -109,7 +105,7 @@
 							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/2.jpg">
 						</div>
 					</div>
-					<div class="columna">
+					<div class="columna-texto">
 						<span class="texto-columna"></span><br>
 					</div>
 				</div>
@@ -131,6 +127,7 @@
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 			<script type="text/javascript">
+			    document.oncontextmenu = function(){return false}
 				$(function () {
 					$('[data-toggle="tooltip"]').tooltip()
 				})

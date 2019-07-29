@@ -27,12 +27,9 @@
 							<img class="imagen-servicio" src="assets/css/images/arquitecturapp.png">
 						</div>
 					</div>
-					<div class="columna">
-						<span class="texto-columna">Enfocado a la realización de proyectos, dando seguimiento a las necesidades del usuario. En &aacute;reas tales como:</span><br>
-						<span class="apartados" id="ver" onclick="recuperavalor('v');" >Vivienda</span><br>
-						<span class="apartados" id="ver" onclick="recuperavalor('c');">Comercio</span><br>
-						<span class="apartados" id="ver" onclick="recuperavalor('r');">Remodelaciones</span><br>
-						<span class="apartados" id="ver" onclick="recuperavalor('a');">Ampliaciones</span><br>
+					<div class="columna-texto">
+						<span class="texto-columna">Enfocado a la realización de proyectos, dando seguimiento a las necesidades del usuario.</span><br>
+						
 						<br><br><br>
 						<div class="barra-regreso" style="background-color: #CEE3F6;">
 							<div class="contenedor-barra">
@@ -41,7 +38,7 @@
 								</div>
 								<div class="elementos-barra">
 									<div class="item-barra">
-										<button class="boton-regresar" onclick="mandar();">M&aacute;s informaci&oacute;n.</button>	
+										<button class="boton-regresar" onclick="mandar();">Para mayor informaci&oacute;n.</button>	
 									</div>
 								</div>					
 							</div>
@@ -58,7 +55,7 @@
 							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/7.jpg">
 						</div>
 					</div>
-					<div class="columna">
+					<div class="columna-texto">
 						<span class="texto-columna">De todos los niveles, as&iacute; como la aplicaci&oacute;n de tecnolog&iacute;as para hacerlas mas amigables con el ambiente, con el uso de eco tecnolog&iacute;as (paneles solares, calentadores solares, focos led, pintura con nanotecnolog&iacute;a, equipos ahorradores).</span><br>
 					</div>
 				</div>
@@ -71,7 +68,7 @@
 							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/7.jpg">
 						</div>
 					</div>
-					<div class="columna">
+					<div class="columna-texto">
 						<span class="texto-columna">Dise&ntilde;o personalizado para un uso mas optimo del espacio e instalaciones para dar los servicios de acuerdo a las necesidades.</span><br>
 					</div>
 				</div>
@@ -84,7 +81,7 @@
 							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/6.jpg">
 						</div>
 					</div>
-					<div class="columna">
+					<div class="columna-texto">
 						<span class="texto-columna">Propuestas personalizas de acuerdo a las necesidades del cliente y aplicando la tecnolog&iacute;a mas actual a los espacios a intervenir.</span><br>
 					</div>
 				</div>
@@ -97,7 +94,7 @@
 							<img class="imagen-servicio" src="assets/css/images/catalogo/vivienda/2.jpg">
 						</div>
 					</div>
-					<div class="columna">
+					<div class="columna-texto">
 						<span class="texto-columna">Las Ampliaciones de acuerdo a las necesidades del usuario y espacio disponible.</span><br>
 					</div>
 				</div>
@@ -119,6 +116,7 @@
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 			<script type="text/javascript">
+			    document.oncontextmenu = function(){return false}
 				$(function () {
 					$('[data-toggle="tooltip"]').tooltip()
 				})

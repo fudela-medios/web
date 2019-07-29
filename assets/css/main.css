@@ -17,8 +17,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
-}
+	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -82,7 +81,7 @@ nav{
 	}
 
 	body {
-		background: #f7f7f7 url("images/bg01.png");
+		background: #f7f7f7;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -198,12 +197,6 @@ nav{
 	.container.logo {
 		width: 20%;
 	}
-	    @media screen and (max-width: 1920px) {
-
-			.container {
-				width: 1500px;
-			}
-		}
 
 		@media screen and (max-width: 1680px) {
 
@@ -241,6 +234,7 @@ nav{
 
 			.container {
 				width: 90%;
+				margin-top:12%;
 			}
 
 		}
@@ -690,8 +684,7 @@ nav{
 
 				.rows {
 					margin-top: -40px;
-					
-				}
+									}
 
 					.rows > * {
 						padding: 40px 0 0 40px;
@@ -2150,10 +2143,10 @@ nav{
 			text-align: center;
 			cursor: default;
 			background-color: #1d4377;
-			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-			background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15));
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15));
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15));
+			background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15));
 			color: #fff;
 			border-radius: 100%;
 			display: inline-block;
@@ -2161,7 +2154,7 @@ nav{
 			height: 5em;
 			line-height: 5em;
 			box-shadow: 0 0 0 7px white, 0 0 0 8px #e0e0e0;
-			margin: 0 0 2em 0;
+			margin: 2em 0 2em 0;
 		}
 
 			.icon.major:before {
@@ -2391,10 +2384,10 @@ nav{
 
 			table.default thead {
 				background-color: #555555;
-				background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-				background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-				background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+				background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15));
+				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15));
+				background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15));
+				background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15));
 				color: #fff;
 			}
 
@@ -2413,17 +2406,16 @@ nav{
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15));
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15));
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15));
+		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15));
 		background-color: #37c0fb;
 		border-radius: 5px;
-		border: 0;
+		border: 0px;
 		color: #fff;
 		cursor: pointer;
 		display: inline-block;
-		padding: 0 1.5em;
 		line-height: 2.75em;
 		min-width: 9em;
 		text-align: center;
@@ -2753,7 +2745,7 @@ nav{
 /* Wrapper */
 
 	.wrapper {
-		padding: 5em 0 3em 0;
+		padding: 0em 0 3em 0;
 	}
 
 		.wrapper.style1 {
@@ -2944,10 +2936,15 @@ nav{
 		display: none;
 	}
 
-	@media screen and (max-width: 840px) {
+	@media screen and (max-width: 1024px) {
 
 		/* Basic */
-
+		    .icon.major {
+				width: 3em;
+				height: 3em;
+				line-height: 3em;
+				box-shadow: 0 0 0 7px white, 0 0 0 8px #e0e0e0;
+			}
 			html, body {
 				overflow-x: hidden;
 			}
@@ -3070,7 +3067,8 @@ nav{
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				padding-bottom: 1px;
-				padding-top: 20px;
+				padding-top: 80px;
+				background-color:beige;
 			}
 
 			#titleBar {
@@ -3083,19 +3081,20 @@ nav{
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				display: block;
-				height: 44px;
+				height: 80px;
 				left: 0;
 				position: fixed;
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background-color: #333;
-				height: 44px;
-				line-height: 44px;
+				background-color: #1f1f1f;
+				height: 80px;
+				line-height: 70px;
 				box-shadow: 0 4px 0 0 #37c0fb;
 			}
 
 				#titleBar .title {
+				    padding-top:3%;
 					display: block;
 					position: relative;
 					font-weight: 600;
@@ -3147,10 +3146,10 @@ nav{
 			#navPanel {
 				background-color: #1f1f1f;
 				box-shadow: inset -1px 0 3px 0 rgba(0, 0, 0, 0.5);
-				background-image: -moz-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("images/bg01.png");
-				background-image: -webkit-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("images/bg01.png");
-				background-image: -ms-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("images/bg01.png");
-				background-image: linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("images/bg01.png");
+				background-image: -moz-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15));
+				background-image: -webkit-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15));
+				background-image: -ms-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15));
+				background-image: linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15));
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -3182,6 +3181,7 @@ nav{
 					line-height: 48px;
 					padding: 0 1em 0 1em;
 					text-decoration: none;
+					width: 18em;
 				}
 
 					#navPanel .link:first-child {
@@ -3191,15 +3191,41 @@ nav{
 					#navPanel .link.depth-0 {
 						color: #fff;
 					}
+					#navPanel .link.depth-1{
+						display: none;
+						width: 18em;
 
+					}
+					#navPanel .link.depth-2{
+						display: none;
+						width: 18em;
+
+					}
+					#navPanel .link.depth-4{
+						display: none;
+						width: 18em;
+
+					}
+					#navPanel .link.depth-5{
+						display: none;
+						width: 18em;
+
+					}
+					#navPanel .link.depth-6{
+						display: none;
+						width: 18em;
+
+					}
 					#navPanel .link .indent-1 {
 						display: inline-block;
-						width: 1em;
+						width: 18em;
+						color: #fff;
 					}
 
 					#navPanel .link .indent-2 {
 						display: inline-block;
-						width: 2em;
+						width: 18em;
+						color: #fff;
 					}
 
 					#navPanel .link .indent-3 {
@@ -3209,12 +3235,20 @@ nav{
 
 					#navPanel .link .indent-4 {
 						display: inline-block;
-						width: 4em;
+						width: 18em;
+						color: #fff;
+
 					}
 
 					#navPanel .link .indent-5 {
 						display: inline-block;
-						width: 5em;
+						width: 18em;
+						color: #fff;
+					}
+					#navPanel .link .indent-6 {
+						display: inline-block;
+						width: 18em;
+						color: #fff;
 					}
 
 			body.navPanel-visible #page-wrapper {
@@ -3242,22 +3276,28 @@ nav{
 
 /* Mobile */
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 720px) {
 
 		/* Basic */
+		    .icon.major {
+				width: 2em;
+				height: 2em;
+				line-height: 2em;
+				box-shadow: 0 0 0 7px white, 0 0 0 8px #e0e0e0;
+			}
 
 			body, input, select, textarea {
 				font-size: 11pt;
 				line-height: 1.35em;
 			}
 
-			h2 {
+			h2,h1.principa {
 				font-size: 1.25em;
 				letter-spacing: 0;
 				line-height: 1.35em;
 			}
 
-			h3 {
+			h3.principal {
 				font-size: 1em;
 				letter-spacing: 0;
 				line-height: 1.35em;
@@ -3301,7 +3341,14 @@ nav{
 		/* Wrapper */
 
 			.wrapper {
-				padding: 2em 0 1px 0;
+				padding: 2em 20px 10.5em 20px;
+			}
+			.box.highlight {
+
+				padding-left: 3.5em;
+			}
+			.row{
+			    display: block;
 			}
 
 	}
@@ -3313,9 +3360,9 @@ nav{
 		/* Icon */
 
 			.icon.major {
-				width: 4em;
-				height: 4em;
-				line-height: 4em;
+				width: 2em;
+				height: 2em;
+				line-height: 2em;
 				box-shadow: 0 0 0 7px white, 0 0 0 8px #e0e0e0;
 			}
 
@@ -3337,7 +3384,7 @@ nav{
 		/* Box */
 
 			.box.highlight {
-				padding-left: calc(4em + 30px);
+				padding-left: 3.5em;
 			}
 
 			.box.post .inner {
@@ -3361,7 +3408,7 @@ nav{
 		/* Wrapper */
 
 			.wrapper {
-				padding: 2em 20px 1px 20px;
+				padding: 2em 20px 10.5em 20px;
 			}
 
 		/* CTA */
@@ -3375,6 +3422,9 @@ nav{
 			#footer {
 				padding: 2em 20px;
 				text-align: left;
+			}
+			.row{
+			    display: block;
 			}
 
 	}

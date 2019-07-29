@@ -145,4 +145,74 @@
     	text-decoration: underline #1d4377;
     }
 }
+@media screen and (max-width: 720px) {
+    .container-contacto{
+    	overflow: hidden;
+    	width: 80%;
+    	height: 80%;
+    	margin-top: 5%;
+    	margin-bottom: 5%;
+    	margin-left:10%;
+    	margin-right:10%;
+    	background-color: #1d4377;	
+    }
+    .container-contact100{
+    	float: left;
+    	margin: 2.5%;
+    	width: 95%;
+    	height: 60%;
+    	padding:5%;
+    	background-color: #CEE3F6;
+    	display: inline-block;
+    }
+    .redes_sociales{
+    	width: 15%;
+    	height: auto;
+    	vertical-align:center;
+    
+    }
+    .redes{
+        width:11%;;
+        height:auto;
+        float: left;
+        margin: 1.5%;
+    }
+    .contenedor-redes{
+    	padding-left: 0%;
+    	margin-bottom: 2.5%;
+    }
+    .texto-contenido-redes{
+    	margin-top: 2.5%;
+    	width: 50%;
+    	float: left;
+    	font-size:1.3em;
+    }
+    .boton{
+        display:grid;
+        padding-bottom: 0%;
+    }
+    .contact100-form-btn{
+        margin:2.5% 0%;
+    }
+    .titulo{
+        font-size:2em;
+    }
+    .campo{
+        font-size:1em;
+    }
+    #titulo-seccion{
+        margin-top:5%;
+    }
+    .campo-correo{
+        font-size:1em;
+        margin-left: 1.5%;
+        margin-bottom: 1.6%;
+    }
+    .contacto-a:hover{
+    	text-decoration: underline #1d4377;
+    }
+}
+@media screen and (max-width: 480px) {
+    
+}
 

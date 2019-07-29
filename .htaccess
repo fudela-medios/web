@@ -1,0 +1,10 @@
+
+RewriteEngine on
+
+RewriteOptions inherit
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^fudelamedios\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.fudelamedios\.com$
+RewriteRule ^(.*)$ "https\:\/\/www\.fudelamedios\.com\/$1" [R=301,L]
+

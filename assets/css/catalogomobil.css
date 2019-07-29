@@ -1,0 +1,30 @@
+
+#mobil #mobilproductos #mobilinsumos{
+  width:100%;
+  height:auto;
+}
+.conen{
+    width:100%;
+    height:auto;
+}
+.conen-img{
+    width:70%;
+    margin:0% 15%;
+}
+.img-conen{
+    width:100%;
+    border-radius: 50%;
+}
+.conen-texto{
+    width:100%;
+    height:auto;
+}
+#txt-conen{
+    text-align: center;
+    font-size:1.3em;
+}
+.aconen{
+    width:100%;
+    text-align: center;
+    font-size:1em;
+}

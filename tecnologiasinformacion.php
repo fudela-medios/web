@@ -26,12 +26,9 @@
 							<img class="imagen-servicio" src="assets/css/images/informatica.jpg">
 						</div>
 					</div>
-					<div class="columna">
-						<span class="texto-columna">Enfocado a la realización de proyectos, dando seguimiento a las necesidades del usuario. En áreas tales como:</span>
+					<div class="columna-texto">
+						<span class="texto-columna">Enfocado a la realizaci&oacute;n de proyectos, dando seguimiento a las necesidades del usuario.</span><br>
 
-						<span class="apartados" id="ver" onclick="re('b');" >Bases de datos</span><br>
-						<span class="apartados" id="ver" onclick="re('p');">Programaci&oacute;n</span><br>
-						<span class="apartados" id="ver" onclick="re('r');">Redes de telecomunicaci&oacute;n</span><br>
 						<br><br>
 						<div class="barra-regreso" style="background-color: #CEE3F6;">
 							<div class="contenedor-barra">
@@ -40,7 +37,7 @@
 								</div>
 								<div class="elementos-barra">
 									<div class="item-barra">
-										<button class="boton-regresar" onclick="mandar();">M&aacute;s informaci&oacute;n.</button>	
+										<button class="boton-regresar" onclick="mandar();">Para mayor informaci&oacute;n.</button>	
 									</div>
 								</div>					
 							</div>
@@ -80,6 +77,7 @@
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 			<script type="text/javascript">
+			    document.oncontextmenu = function(){return false}
 				$(function () {
 					$('[data-toggle="tooltip"]').tooltip()
 				})

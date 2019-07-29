@@ -1,4 +1,14 @@
-
+/*.contenedor-menu{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top:0; 
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-wrap: none;
+}*/
 .contenedor{
 	width: 30%;
 	height: 24%;
@@ -73,63 +83,73 @@ a{
 .palabras{
 	margin: 0%;
 }
-
+.linea{
+    width:100%;
+    height:0.3em;
+    background-color:#1d4377;
+}
 .opciones{
     margin-left:40%;
 }
 .contenido{
 	width: 100%;
+	/*margin-left: 10%;*/
+
 }
 
-@media screen and (max-width: 4096px) {
-	.contenido{
-    	width: 100%;
-    	padding-left: 3.1%;
-    	padding-right:3.1%;
-    	padding-top: 1.5%;
-    	
-    }
-    .ubicacion{
-        width:70%;
-        margin:0% 32%;
-    }
-}
-@media screen and (max-width: 3840px) {
-	.contenido{
-    	width: 100%;
-    	padding-left: 3.1%;
-    	padding-right:3.1%;
-    	padding-top: 1.5%;
-    	
-    }
-    .ubicacion{
-        width:70%;
-        margin:0% 32%;
-    }
-}
 @media screen and (max-width: 1920px) {
 	.contenido{
     	width: 100%;
-    	padding-left: 3.1%;
-    	padding-right:3.1%;
-    	padding-top: 1.5%;
-    	
+    	padding: 0% 20%;
     }
     .ubicacion{
-        width:80%;
-        margin:0% 16%;
+        width: 80%;
+    }
+    .renglon{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .columna{
+        width: 50%;
+        font-size:1.75rem;
     }
 }
 @media screen and (max-width: 1366px) {
 	.contenido{
     	width: 100%;
-    	padding-left: 3.1%;
-    	padding-right:3.1%;
+    	padding-left: 16.1%;
     	padding-top: 1.5%;
     }
     .ubicacion{
-        width:80%;
-        margin:0% 11%;
+        width: 80%;
+        margin: 0% 10%;
+    }
+    .renglon{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .columna{
+        width: 50%;
+        font-size:1.75rem;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .contenido{
+        width: 100%;
+        padding-left: 0%;
+        padding-top: 3.5%;
+    }
+    .ubicacion{
+        width: 100%;
+        margin: 0% 11%;
+    }
+    .renglon{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .columna{
+        width: 50%;
+        font-size:1.75rem;
     }
 }
 .barra{
@@ -156,15 +176,15 @@ a{
         float: left;
     }
     .descripcion-seccion-texto{
-    	width: 75%;
+    	width: 70%;
     	float: left;
-    	line-height : 25px;
-    	white-space: normal;
+    	box-sizing: border-box;
     	text-align: justify;
     }
     .texto-descripcion{
+    	text-align: justify;
+    	width: 70%;
     	margin: 15% 2.5% 2.5% 2.5%;
-    	font-size: 0.9em;
     }
     .img-seccion-d{
     	width: 70%;
@@ -176,6 +196,7 @@ a{
 	.contenedor-descripcion {
     	width: 350px;
     	height: auto;
+    	box-sizing: border-box;
     }
     .descipcion-seccion{
     	width: 100%;
@@ -188,20 +209,39 @@ a{
         float: left;
     }
     .descripcion-seccion-texto{
-    	width: 75%;
+    	width: 70%;
     	float: left;
-    	line-height : 25px;
-    	white-space: normal;
-    	text-align: justify;
+        line-height: 25px;
     }
     .texto-descripcion{
+    	text-align: justify;
+    	width: 70%;
     	margin: 15% 2.5% 2.5% 2.5%;
-    	font-size: 0.9em;
     }
     .img-seccion-d{
     	width: 70%;
     	height: 70%;
     	margin: 15% 2.5% 2.5% 2.5%;
+    }
+    .contenedor-boton-pdf{
+        width: 100%;
+        height: auto;
+        padding: 1.5% 20%;
+    }
+    .boton-descargar-pdf{
+        width: 100%;
+        height: auto;
+        font-size: 1.25em;
+        border-radius:20px;
+    }
+    .botondt{
+        color:black;
+    }
+    .boton-descargar-pdf:active{
+        top:4px;
+        -moz-box-shadow: 0px 1px 0px 0px rgb(0, 105, 202);
+        -webkit-box-shadow: 0px 1px 0px 0px rgb(0, 105, 202);
+        box-shadow: 0px 1px 0px 0px rgb(0, 105, 202);
     }
 }
 .contenedor-descripcion {
@@ -220,30 +260,29 @@ a{
     float: left;
 }
 .descripcion-seccion-texto{
-	width: 75%;
+	width: 70%;
 	float: left;
-	line-height : 25px;
-	white-space: normal;
-	text-align: justify;
+    white-space: normal
 }
 .texto-descripcion{
+	text-align: justify;
+	width: 70%;
 	margin: 15% 2.5% 2.5% 2.5%;
-	font-size: 0.85em;
 }
 .img-seccion-d{
 	width: 70%;
 	height: 70%;
 	margin: 15% 2.5% 2.5% 2.5%;
 }
+
 .barra-regreso{
     width: 100%;
     height: auto;
     padding-top: 2.5%;
-    padding-bottom: 1.5%;
     background-color: beige;
 }
 .contenedor-barra{
-    width: 80%;
+    width: 85.5%;
     height: auto;
     margin: 0% 10%;
     display: flex;
@@ -263,9 +302,10 @@ a{
 }
 .boton-regresar{
     position: flex;
-    width: 171px;
+    width: auto;
     height: auto;
     background-color: #1d4377;
+    border-radius:20px;
 
 }
 .item-barra{
@@ -273,57 +313,57 @@ a{
     height: auto;
     display: block;
     text-align: right;
+    margin: 2.5% 0%;
 }
 .boton-regresar:hover{
 
     background-color: #CEE3FF;;
 }
-@media screen and (max-width: 3840px){
-    .texto{
-    	width: 96%;
-    	margin-left: 3%;
-    	font-size:4.5em;
-    	font-style: justify;
+@media screen and (max-width: 1024px) {
+    
+}
+@media screen and (max-width: 900px) {
+    .boton-regresar{
+        display:none;
     }
-    .linea{
-        width:100%;
-        height:1.3em;
-        background-color:#1d4377;
+    .contenedor-barra{
+        display:block;
+    }
+    .elementos-barra{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 720px) {
+    .opciones{
+        margin-left:12%;
+    }
+    .renglon{
+        display:block;
+       align-items:center;
+    }
+    .columna{
+        width: 100%;
+        font-size:1em;
+        padding-left: 20%;
+    }
+    .boton-regresar{
+        display:none;
     }
 }
-@media screen and (max-width: 1920px) {
-    .texto{
-    	width: 96%;
-    	margin-left: 3%;
-    	font-size:2em;
-    	font-style: justify;
+@media screen and (max-width: 480px) {
+    .opciones{
+        margin-left:5%;
     }
-    .linea{
-        width:100%;
-        height:0.7em;
-        background-color:#1d4377;
+    .renglon{
+        display:block;
+       align-items:center;
     }
-    .espacio-menu{
+    .columna{
         width: 100%;
-        height: 200px;
-        background-color: beige;
+        font-size:1em;
     }
-}
-@media screen and (max-width: 1366px) {
-    .texto{
-    	width: 96%;
-    	margin-left: 3%;
-    	font-size:1.3em;
-    	font-style: justify;
-    }
-    .linea{
-        width:100%;
-        height:0.3em;
-        background-color:#1d4377;
-    }
-    .espacio-menu{
-        width: 100%;
-        height: 200px;
-        background-color: beige;
+    .boton-regresar{
+        display:none;
     }
 }
