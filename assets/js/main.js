@@ -178,6 +178,9 @@
 							'<a href="tirolesa.php" id="nccli" class="link depth-6">'+
 								'<span class="link indent-6">Tirolesa</span>'+
 							'</a>'+
+							'<a href="tobomontana.php" id="nccli" class="link depth-6">'+
+								'<span class="link indent-6">Tobog&aacute;n de monta&ntilde;a</span>'+
+							'</a>'+
 							'<a href="viviendas.php" id="nccli" class="link depth-6">'+
 								'<span class="link indent-6">Viviendas</span>'+
 							'</a>'+

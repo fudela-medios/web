@@ -78,6 +78,21 @@
 							<img class="galeria_img" src="assets/css/images/catalogo/campingg/6.png">
 						</div>
 					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/campingg/7.png">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/campingg/8.png">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/campingg/9.png">
+						</div>
+					</div>
 				</div>
 				<?php
         			require 'copy.php'; 

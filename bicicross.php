@@ -68,6 +68,31 @@
 							<img class="galeria_img" src="assets/css/images/catalogo/bicicros/4.png">
 						</div>
 					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/bicicros/5.png">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/bicicros/6.png">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/bicicros/7.png">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/bicicros/8.png">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/bicicros/9.png">
+						</div>
+					</div>
 				</div>
 				<?php
         			require 'copy.php'; 

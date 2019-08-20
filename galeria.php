@@ -68,6 +68,7 @@ producciones en v&iacute;deo que se puede crear.</span>
                                                     <li><a class="opc" href="senderismo.php">Senderismo</a></li>
                                                     <li><a class="opc" href="telesilla.php">Telesilla escénica</a></li>
                                                     <li><a class="opc" href="tirolesa.php">Tirolesa</a></li>
+                                                    <li><a class="opc" href="tobomontana.php">Tobog&aacute;n de monta&ntilde;a</a></li>
 										            <li><a class="opc" href="viviendas.php">Viviendas</a></li>
 										        </ul>
 										    </li>

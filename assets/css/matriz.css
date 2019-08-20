@@ -93,32 +93,14 @@ a{
 }
 .contenido{
 	width: 100%;
-	/*margin-left: 10%;*/
+	padding: 1.5% 20%;
 
 }
 
 @media screen and (max-width: 1920px) {
 	.contenido{
     	width: 100%;
-    	padding: 0% 20%;
-    }
-    .ubicacion{
-        width: 80%;
-    }
-    .renglon{
-        display:flex;
-        flex-wrap:wrap;
-    }
-    .columna{
-        width: 50%;
-        font-size:1.75rem;
-    }
-}
-@media screen and (max-width: 1366px) {
-	.contenido{
-    	width: 100%;
-    	padding-left: 16.1%;
-    	padding-top: 1.5%;
+    	padding: 2% 20% 2% 20%;
     }
     .ubicacion{
         width: 80%;
@@ -133,15 +115,35 @@ a{
         font-size:1.75rem;
     }
 }
+@media screen and (max-width: 1366px) {
+	.contenido{
+    	width: 100%;
+    	padding-left: 20%;
+    	padding-top: 1.5%;
+    	padding-bottom: 1.5%;
+    }
+    .ubicacion{
+        width: 100%;
+        margin: 0%;
+    }
+    .renglon{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .columna{
+        width: 50%;
+        font-size:1.75rem;
+    }
+}
 @media screen and (max-width: 1024px) {
     .contenido{
         width: 100%;
-        padding-left: 0%;
+        padding-left: 20%;
         padding-top: 3.5%;
     }
     .ubicacion{
         width: 100%;
-        margin: 0% 11%;
+        margin: 0%;
     }
     .renglon{
         display:flex;
@@ -320,7 +322,9 @@ a{
     background-color: #CEE3FF;;
 }
 @media screen and (max-width: 1024px) {
-    
+    .loader{
+        display: none;
+    }
 }
 @media screen and (max-width: 900px) {
     .boton-regresar{

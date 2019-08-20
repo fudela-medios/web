@@ -78,6 +78,21 @@
 							<img class="galeria_img" src="assets/css/images/catalogo/pared/6.jpg">
 						</div>
 					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/pared/7.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/pared/8.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/pared/9.jpg">
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="espacio-menu"></div>

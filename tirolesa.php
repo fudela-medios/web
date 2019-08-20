@@ -73,6 +73,26 @@
 							<img class="galeria_img" src="assets/css/images/catalogo/tirolesa/5.jpg">
 						</div>
 					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/tirolesa/6.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/tirolesa/7.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/tirolesa/8.jpg">
+						</div>
+					</div>
+					<div class="contenedor_imagen">
+						<div class="galeria_item">
+							<img class="galeria_img" src="assets/css/images/catalogo/tirolesa/9.jpg">
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="espacio-menu"></div>
